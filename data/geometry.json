@@ -1,0 +1,44 @@
+{
+  "gameSlug": "super-geometry",
+  "gameName": "Super Geometry",
+  "scenes": [
+    {
+      "id": "demo1",
+      "title": "Scene 1",
+      "name": "Angles & Constructions Base Camp",
+      "icon": "📐",
+      "enemy": "🐉",
+      "topic": "Angles & Constructions",
+      "music": "Angles & Constructions",
+      "teach": [
+        "This is a demo scene for Angles & Constructions.",
+        "Question bank can be expanded later."
+      ],
+      "worked": [
+        [
+          "Demo example",
+          "Choose correct."
+        ]
+      ]
+    },
+    {
+      "id": "demo2",
+      "title": "Scene 2",
+      "name": "Angles & Constructions Practice",
+      "icon": "📐",
+      "enemy": "🐉",
+      "topic": "Angles & Constructions",
+      "music": "Angles & Constructions",
+      "teach": [
+        "Practice Angles & Constructions.",
+        "More scenes can be added in JSON."
+      ],
+      "worked": [
+        [
+          "Demo example",
+          "Answer = correct."
+        ]
+      ]
+    }
+  ]
+}

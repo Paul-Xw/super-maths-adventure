@@ -1,58 +1,10 @@
-import { SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY } from "./config.js";
-
-export const isSupabaseConfigured =
-  SUPABASE_URL.startsWith("https://") &&
-  SUPABASE_URL.includes(".supabase.co") &&
-  SUPABASE_PUBLISHABLE_KEY.startsWith("sb_publishable_");
-
-export const supabaseClient = isSupabaseConfigured
-  ? window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY)
-  : null;
-
-export async function getGameId(gameSlug) {
-  if (!supabaseClient) return null;
-  const { data, error } = await supabaseClient.from("games").select("id").eq("game_slug", gameSlug).single();
-  if (error) { console.warn("getGameId error", error); return null; }
-  return data?.id || null;
-}
-
-export async function getSceneId(gameId, sceneNo) {
-  if (!supabaseClient || !gameId) return null;
-  const { data, error } = await supabaseClient.from("game_scenes").select("id").eq("game_id", gameId).eq("scene_no", sceneNo).single();
-  if (error) { console.warn("getSceneId error", error); return null; }
-  return data?.id || null;
-}
-
-export async function saveScoreOnline({ gameSlug, sceneNo, playerName, score, correct, total, stars, xp, coins }) {
-  if (!supabaseClient) return { ok: false, reason: "Supabase not configured" };
-  try {
-    const gameId = await getGameId(gameSlug);
-    const sceneId = await getSceneId(gameId, sceneNo);
-    const { error } = await supabaseClient.from("scores").insert({
-      player_name: playerName || "Player",
-      game_id: gameId,
-      scene_id: sceneId,
-      score: score || 0,
-      correct: correct || 0,
-      total: total || 0,
-      stars: stars || 0,
-      xp: xp || 0,
-      coins: coins || 0
-    });
-    if (error) throw error;
-    return { ok: true };
-  } catch (error) {
-    console.warn("saveScoreOnline error", error);
-    return { ok: false, reason: error.message || String(error) };
-  }
-}
-
-export async function loadLeaderboard(limit = 20) {
-  if (!supabaseClient) return [];
-  const { data, error } = await supabaseClient.from("leaderboard_scores")
-    .select("player_name,game_name,scene_name,score,correct,total,stars,xp,coins,created_at")
-    .order("score", { ascending: false })
-    .limit(limit);
-  if (error) { console.warn("loadLeaderboard error", error); return []; }
-  return data || [];
-}
+import{SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY}from'./config.js';
+export const ok=SUPABASE_URL.includes('.supabase.co')&&SUPABASE_PUBLISHABLE_KEY.startsWith('sb_publishable_');
+export const sb=ok?window.supabase.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY):null;
+export async function getGameId(slug){if(!sb)return null;const{data,error}=await sb.from('games').select('id').eq('game_slug',slug).single();if(error){console.warn(error);return null}return data?.id}
+export async function getSceneId(gameId,sceneNo){if(!sb||!gameId)return null;const{data,error}=await sb.from('game_scenes').select('id').eq('game_id',gameId).eq('scene_no',sceneNo).single();if(error){console.warn(error);return null}return data?.id}
+export async function getClass(code){if(!sb)return null;const{data,error}=await sb.from('classes').select('id,class_name,class_code').eq('class_code',String(code).toUpperCase()).single();if(error){console.warn(error);return null}return data}
+export async function ensureStudent(name,code){if(!sb)return{student:null,klass:null};const klass=await getClass(code);let student=null;const{data:found}=await sb.from('students').select('id,student_name,year_group').eq('student_name',name).eq('year_group','Year 8').limit(1);if(found&&found.length)student=found[0];else{const{data,error}=await sb.from('students').insert({student_name:name,nickname:name,year_group:'Year 8'}).select('id,student_name').single();if(error)console.warn(error);student=data}if(student?.id&&klass?.id)await sb.from('class_students').upsert({class_id:klass.id,student_id:student.id},{onConflict:'class_id,student_id'});return{student,klass}}
+export async function saveScore({gameSlug,sceneNo,playerName,classCode,score,correct,total,stars,xp,coins}){if(!sb)return{ok:false};try{const gameId=await getGameId(gameSlug);const sceneId=await getSceneId(gameId,sceneNo);const{student,klass}=await ensureStudent(playerName,classCode);const{error}=await sb.from('scores').insert({student_id:student?.id||null,player_name:playerName,game_id:gameId,scene_id:sceneId,score,correct,total,stars,xp,coins});if(error)throw error;return{ok:true,student,klass}}catch(e){console.warn(e);return{ok:false,reason:e.message}}}
+export async function leaderboard(){if(!sb)return[];const{data,error}=await sb.from('leaderboard_scores').select('player_name,game_name,scene_name,score,correct,total,stars,xp,coins,created_at').order('score',{ascending:false}).limit(20);if(error){console.warn(error);return[]}return data||[]}
+export async function classDashboard(code){if(!sb)return{klass:null,students:[],scores:[]};const klass=await getClass(code);if(!klass)return{klass:null,students:[],scores:[]};const{data:students}=await sb.from('class_students').select('student_id, students(id,student_name,year_group)').eq('class_id',klass.id);const ids=(students||[]).map(x=>x.student_id);let scores=[];if(ids.length){const{data}=await sb.from('scores').select('student_id,player_name,score,correct,total,stars,xp,coins,created_at,games(game_name),game_scenes(scene_name)').in('student_id',ids).order('created_at',{ascending:false}).limit(200);scores=data||[]}return{klass,students:students||[],scores}}

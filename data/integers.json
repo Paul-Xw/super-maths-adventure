@@ -1,0 +1,44 @@
+{
+  "gameSlug": "super-integers",
+  "gameName": "Super Integer",
+  "scenes": [
+    {
+      "id": "demo1",
+      "title": "Scene 1",
+      "name": "Integers Base Camp",
+      "icon": "🧙‍♂️",
+      "enemy": "👾",
+      "topic": "Integers",
+      "music": "Integers",
+      "teach": [
+        "This is a demo scene for Integers.",
+        "Question bank can be expanded later."
+      ],
+      "worked": [
+        [
+          "Demo example",
+          "Choose correct."
+        ]
+      ]
+    },
+    {
+      "id": "demo2",
+      "title": "Scene 2",
+      "name": "Integers Practice",
+      "icon": "🧙‍♂️",
+      "enemy": "👾",
+      "topic": "Integers",
+      "music": "Integers",
+      "teach": [
+        "Practice Integers.",
+        "More scenes can be added in JSON."
+      ],
+      "worked": [
+        [
+          "Demo example",
+          "Answer = correct."
+        ]
+      ]
+    }
+  ]
+}

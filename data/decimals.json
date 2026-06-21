@@ -1,0 +1,44 @@
+{
+  "gameSlug": "super-decimals-shooting-v2",
+  "gameName": "Super Decimals Shooting",
+  "scenes": [
+    {
+      "id": "demo1",
+      "title": "Scene 1",
+      "name": "Decimals Base Camp",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Decimals",
+      "teach": [
+        "This is a demo scene for Decimals.",
+        "Question bank can be expanded later."
+      ],
+      "worked": [
+        [
+          "Demo example",
+          "Choose correct."
+        ]
+      ]
+    },
+    {
+      "id": "demo2",
+      "title": "Scene 2",
+      "name": "Decimals Practice",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Decimals",
+      "teach": [
+        "Practice Decimals.",
+        "More scenes can be added in JSON."
+      ],
+      "worked": [
+        [
+          "Demo example",
+          "Answer = correct."
+        ]
+      ]
+    }
+  ]
+}

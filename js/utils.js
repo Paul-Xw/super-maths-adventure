@@ -1,9 +1,9 @@
-export function rand(min,max){return Math.floor(Math.random()*(max-min+1))+min}
-export function shuffle(input){const a=[...input];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-export function sample(input,n){return shuffle(input).slice(0,n)}
-export function escapeHtml(s){return String(s).replace(/\\/g,"\\\\").replace(/'/g,"&#39;")}
-export function unescapeHtml(s){return String(s).replace(/&#39;/g,"'")}
-export function numberValue(v){const s=String(v).trim().replace(/,/g,"");if(/^[-+]?\d+(\.\d+)?$/.test(s))return Number(s);return Number.NaN}
-export function normalizeAnswer(v){const num=numberValue(v);if(!Number.isNaN(num))return "num:"+String(Number(num.toFixed(10)));return "txt:"+String(v).trim().toLowerCase().replace(/\s+/g," ")}
-export function sameAnswer(a,b){return normalizeAnswer(a)===normalizeAnswer(b)}
-export function uniqueOptions(options,answer){const out=[],seen=new Set();function add(v){const key=normalizeAnswer(v);if(!seen.has(key)){seen.add(key);out.push(String(v))}}if(Array.isArray(answer))answer.forEach(add);else add(answer);(options||[]).forEach(add);const base=numberValue(Array.isArray(answer)?answer[0]:answer);const fb=["categorical data","numerical data","discrete data","continuous data","biased","fair","sample","population","closed question","open question","equal"];let step=1;while(out.length<4&&step<80){add(!Number.isNaN(base)?String(base+(step%2?step:-step)):fb[step%fb.length]);step++}return shuffle(out).slice(0,4)}
+export const r=(a,b)=>Math.floor(Math.random()*(b-a+1))+a;
+export function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+export const sample=(a,n)=>shuffle(a).slice(0,n);
+export const esc=s=>String(s).replace(/\\/g,'\\\\').replace(/'/g,'&#39;');
+export const unesc=s=>String(s).replace(/&#39;/g,"'");
+export function num(v){let s=String(v).replace(/,/g,'').trim();return /^[-+]?\d+(\.\d+)?$/.test(s)?Number(s):NaN}
+export function norm(v){let n=num(v);return !Number.isNaN(n)?'num:'+String(Number(n.toFixed(10))):'txt:'+String(v).trim().toLowerCase().replace(/\s+/g,' ')}
+export const same=(a,b)=>norm(a)===norm(b);
+export function opts(options,answer){let out=[],seen=new Set();function add(v){let k=norm(v);if(!seen.has(k)){seen.add(k);out.push(String(v))}}Array.isArray(answer)?answer.forEach(add):add(answer);(options||[]).forEach(add);let fb=['categorical data','numerical data','discrete data','continuous data','biased','fair','sample','population','closed question','open question','equal'],i=0;while(out.length<4){add(fb[i++%fb.length])}return shuffle(out).slice(0,4)}
