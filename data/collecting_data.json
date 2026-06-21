@@ -1,0 +1,238 @@
+{
+  "gameSlug": "super-data-shooting-v3",
+  "gameName": "Super Data Shooting v3",
+  "scenes": [
+    {
+      "id": "collect",
+      "title": "Scene 1",
+      "name": "Survey Village",
+      "icon": "🎈",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Survey Village",
+      "teach": [
+        "Data is information collected to answer a question.",
+        "We collect data to understand people, events, or results.",
+        "A good data collection question is clear and fair.",
+        "Biased questions can make data unreliable."
+      ],
+      "worked": [
+        [
+          "Question: What is your favourite fruit? What type of data is collected?",
+          "It collects fruit names, so it is categorical data."
+        ],
+        [
+          "Why is “Do you love amazing apples?” biased?",
+          "It uses positive words to push people toward yes, so it is not fair."
+        ],
+        [
+          "What is data?",
+          "Data is information collected to answer a question."
+        ]
+      ]
+    },
+    {
+      "id": "types",
+      "title": "Scene 2",
+      "name": "Data Laboratory",
+      "icon": "👾",
+      "enemy": "👾",
+      "topic": "Types of Data",
+      "music": "Alien Data Lab",
+      "teach": [
+        "Categorical data uses names or groups.",
+        "Numerical data uses numbers.",
+        "Discrete data is counted.",
+        "Continuous data is measured."
+      ],
+      "worked": [
+        [
+          "Number of pets is what type of data?",
+          "It is numerical and discrete because pets are counted."
+        ],
+        [
+          "Height is what type of data?",
+          "It is numerical and continuous because height is measured."
+        ],
+        [
+          "Favourite colour is what type of data?",
+          "It is categorical because it is a group or name."
+        ]
+      ]
+    },
+    {
+      "id": "questionnaire",
+      "title": "Scene 3",
+      "name": "Questionnaire City",
+      "icon": "🥷",
+      "enemy": "🥷",
+      "topic": "Questionnaires",
+      "music": "Questionnaire Ninja",
+      "teach": [
+        "A questionnaire is a list of questions.",
+        "Closed questions have fixed choices.",
+        "Open questions allow longer answers.",
+        "Questions should be simple, clear, and neutral."
+      ],
+      "worked": [
+        [
+          "Is “Why do you like maths?” open or closed?",
+          "It is open because it allows a longer answer."
+        ],
+        [
+          "Is “Choose A, B, C, or D” open or closed?",
+          "It is closed because choices are fixed."
+        ],
+        [
+          "Why avoid leading questions?",
+          "They influence the answer and make data unfair."
+        ]
+      ]
+    },
+    {
+      "id": "tally",
+      "title": "Scene 4",
+      "name": "Tally Forest",
+      "icon": "🐟",
+      "enemy": "🐟",
+      "topic": "Tally Charts",
+      "music": "Tally Forest",
+      "teach": [
+        "A tally chart records data quickly.",
+        "Four tally marks are written normally.",
+        "The fifth tally mark crosses the first four.",
+        "Groups of five are easy to count."
+      ],
+      "worked": [
+        [
+          "What does ||||/ || mean?",
+          "The crossed group is 5, plus 2 more, so the frequency is 7."
+        ],
+        [
+          "What does ||||/ ||||/ mean?",
+          "It is 5 + 5 = 10."
+        ],
+        [
+          "Why use tally marks?",
+          "They make repeated counting faster and clearer."
+        ]
+      ]
+    },
+    {
+      "id": "frequency",
+      "title": "Scene 5",
+      "name": "Frequency Space",
+      "icon": "🚀",
+      "enemy": "🪐",
+      "topic": "Frequency Tables",
+      "music": "Frequency Space",
+      "teach": [
+        "Frequency means how often something happens.",
+        "A frequency table organises categories and counts.",
+        "Total frequency means all frequencies added together.",
+        "Check totals to avoid missing or double-counting data."
+      ],
+      "worked": [
+        [
+          "Frequencies are 4, 6, and 10. What is total frequency?",
+          "Add them: 4 + 6 + 10 = 20."
+        ],
+        [
+          "What does frequency mean?",
+          "It means the number of times something occurs."
+        ],
+        [
+          "If total is 30 and known frequencies are 12 and 8, missing frequency?",
+          "30 - 12 - 8 = 10."
+        ]
+      ]
+    },
+    {
+      "id": "sampling",
+      "title": "Scene 6",
+      "name": "Sampling Jungle",
+      "icon": "🧟",
+      "enemy": "🧟",
+      "topic": "Sampling",
+      "music": "Sampling Jungle",
+      "teach": [
+        "A population is the whole group being studied.",
+        "A sample is a smaller group from the population.",
+        "A good sample should represent the population.",
+        "A biased sample gives unfair results."
+      ],
+      "worked": [
+        [
+          "Surveying only football players about favourite sport is biased. Why?",
+          "They may prefer football, so the sample does not represent everyone."
+        ],
+        [
+          "What is population?",
+          "The whole group being studied."
+        ],
+        [
+          "What is sample?",
+          "A smaller group chosen from the population."
+        ]
+      ]
+    },
+    {
+      "id": "organise",
+      "title": "Scene 7",
+      "name": "Data Castle",
+      "icon": "💎",
+      "enemy": "💎",
+      "topic": "Organising Data",
+      "music": "Data Castle",
+      "teach": [
+        "Raw data is data before it is organised.",
+        "Tables help organise data clearly.",
+        "Organised data makes patterns easier to see.",
+        "Labels must be clear and counts must be accurate."
+      ],
+      "worked": [
+        [
+          "Raw data: A, B, A, C, A. Frequency of A?",
+          "A appears 3 times."
+        ],
+        [
+          "Why organise data?",
+          "It helps us see patterns and answer questions."
+        ],
+        [
+          "What should every table have?",
+          "Clear labels and correct counts."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Scene 8",
+      "name": "Dragon Fortress",
+      "icon": "🐉",
+      "enemy": "🐉",
+      "topic": "Data Dragon Boss",
+      "music": "Data Dragon Boss",
+      "teach": [
+        "Read the question carefully.",
+        "Identify whether the data is categorical or numerical.",
+        "For greater questions, compare numeric values, not text.",
+        "Commas and trailing zeros are normalised before checking."
+      ],
+      "worked": [
+        [
+          "Which is greater: 1,250 or 985?",
+          "1,250 is greater. The comma is just a separator."
+        ],
+        [
+          "Which is greater: 2.50 or 2.5?",
+          "They are equal because trailing zeros do not change value."
+        ],
+        [
+          "Which is greater: 0.80 or 0.8?",
+          "They are equal because 0.80 = 0.8."
+        ]
+      ]
+    }
+  ]
+}
