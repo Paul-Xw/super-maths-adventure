@@ -24,3 +24,16 @@
 6. ตรวจ scores / coins_wallet ใน Supabase
 
 Class Code ทดสอบ: YEAR8A
+
+
+## v3.2.1 Student Clean Mode
+
+ปรับแล้ว:
+- นักเรียนไม่เห็นปุ่ม Run QA
+- นักเรียนไม่เห็นปุ่ม QA Runner บน World Map
+- Teacher ยังเห็น Run QA ได้เมื่อเลือก Role = Teacher
+- QA Engine ยังอยู่ เพื่อให้ครู/ผู้ดูแลใช้ตรวจระบบก่อนเพิ่มบทเรียน
+
+วิธีใช้งาน:
+1. นักเรียนเลือก Role = Student → จะเห็นเฉพาะ Enter World Map / Dashboard
+2. ครูเลือก Role = Teacher → จะเห็น Run QA และ Teacher Dashboard
