@@ -1,14 +1,5 @@
-# Super Maths Adventure Online v2
+# Super Maths Adventure Online v3
 
-เพิ่ม:
-- Class Code
-- Teacher Dashboard
-- Online score ผูกกับ student_id
-- Multi Game Menu
+Run `sql/smao_v3_patch.sql` in Supabase SQL Editor, then upload all files to GitHub/Cloudflare.
 
-ติดตั้ง:
-1. Supabase → SQL Editor → Run `sql/smao_v2_patch.sql`
-2. อัปโหลดไฟล์ทั้งหมดขึ้น GitHub แทนชุดเดิม
-3. Cloudflare Pages จะ Deploy ใหม่
-
-Class Code ทดสอบ: `YEAR8A`
+Class Code: YEAR8A

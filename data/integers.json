@@ -12,11 +12,11 @@
       "music": "Integers",
       "teach": [
         "This is a demo scene for Integers.",
-        "Question bank can be expanded later."
+        "Full question bank can be expanded later."
       ],
       "worked": [
         [
-          "Demo example",
+          "Demo",
           "Choose correct."
         ]
       ]
@@ -31,11 +31,11 @@
       "music": "Integers",
       "teach": [
         "Practice Integers.",
-        "More scenes can be added in JSON."
+        "Add more scenes by editing JSON."
       ],
       "worked": [
         [
-          "Demo example",
+          "Demo",
           "Answer = correct."
         ]
       ]

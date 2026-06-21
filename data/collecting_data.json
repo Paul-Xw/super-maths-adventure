@@ -18,12 +18,12 @@
       ],
       "worked": [
         [
-          "Question: What is your favourite fruit? What type of data is collected?",
-          "It collects fruit names, so it is categorical data."
+          "Question: What is your favourite fruit?",
+          "It collects categorical data."
         ],
         [
-          "Why is “Do you love amazing apples?” biased?",
-          "It is not fair because it pushes people toward yes."
+          "Why is a biased question bad?",
+          "It pushes people toward one answer."
         ]
       ]
     },
@@ -43,12 +43,12 @@
       ],
       "worked": [
         [
-          "Number of pets is what type of data?",
-          "Discrete numerical data because pets are counted."
+          "Number of pets?",
+          "Discrete numerical data."
         ],
         [
-          "Height is what type of data?",
-          "Continuous numerical data because height is measured."
+          "Height?",
+          "Continuous numerical data."
         ]
       ]
     },
@@ -68,11 +68,11 @@
       ],
       "worked": [
         [
-          "Fixed choices question?",
+          "Fixed choices?",
           "Closed question."
         ],
         [
-          "Long answer question?",
+          "Long answer?",
           "Open question."
         ]
       ]
@@ -93,11 +93,11 @@
       ],
       "worked": [
         [
-          "What does ||||/ || mean?",
+          "||||/ ||",
           "5 + 2 = 7."
         ],
         [
-          "What does ||||/ ||||/ mean?",
+          "||||/ ||||/",
           "5 + 5 = 10."
         ]
       ]
@@ -117,11 +117,11 @@
       ],
       "worked": [
         [
-          "Frequencies are 4, 6, and 10.",
-          "4 + 6 + 10 = 20."
+          "4,6,10 total?",
+          "20."
         ],
         [
-          "What is frequency?",
+          "Frequency means?",
           "How often something occurs."
         ]
       ]
@@ -142,12 +142,12 @@
       ],
       "worked": [
         [
-          "Only football players surveyed about favourite sport.",
-          "This is biased."
+          "Only football players surveyed about sport.",
+          "Biased sample."
         ],
         [
-          "Population means?",
-          "The whole group being studied."
+          "Population?",
+          "Whole group."
         ]
       ]
     },
@@ -166,8 +166,8 @@
       ],
       "worked": [
         [
-          "A, B, A, C, A frequency of A?",
-          "A appears 3 times."
+          "A,B,A,C,A frequency of A?",
+          "3."
         ],
         [
           "Why organise data?",
@@ -190,12 +190,12 @@
       ],
       "worked": [
         [
-          "Which is greater: 1,250 or 985?",
-          "1,250 is greater."
+          "1,250 or 985?",
+          "1,250."
         ],
         [
-          "Which is greater: 2.50 or 2.5?",
-          "They are equal."
+          "2.50 or 2.5?",
+          "Equal."
         ]
       ]
     }
