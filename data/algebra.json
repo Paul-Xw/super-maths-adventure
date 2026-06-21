@@ -1,23 +1,23 @@
 {
-  "gameSlug": "super-geometry",
-  "gameName": "Super Geometry",
+  "gameSlug": "super-algebra",
+  "gameName": "Super Algebra",
   "scenes": [
     {
       "id": "s1",
       "title": "Scene 1",
-      "name": "Types of Angles",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Types of Angles",
+      "name": "Expressions",
+      "icon": "🧮",
+      "enemy": "🤖",
+      "topic": "Expressions, Formulae & Equations",
+      "music": "Expressions",
       "teach": [
-        "Learn Types of Angles.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Expressions.",
+        "This scene trains Expressions, Formulae & Equations skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Types of Angles",
+          "Example for Expressions",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -29,19 +29,19 @@
     {
       "id": "s2",
       "title": "Scene 2",
-      "name": "Straight Line",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Straight Line",
+      "name": "Substitution",
+      "icon": "🧮",
+      "enemy": "🤖",
+      "topic": "Expressions, Formulae & Equations",
+      "music": "Substitution",
       "teach": [
-        "Learn Straight Line.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Substitution.",
+        "This scene trains Expressions, Formulae & Equations skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Straight Line",
+          "Example for Substitution",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -53,19 +53,19 @@
     {
       "id": "s3",
       "title": "Scene 3",
-      "name": "Around a Point",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Around a Point",
+      "name": "Formulae",
+      "icon": "🧮",
+      "enemy": "🤖",
+      "topic": "Expressions, Formulae & Equations",
+      "music": "Formulae",
       "teach": [
-        "Learn Around a Point.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Formulae.",
+        "This scene trains Expressions, Formulae & Equations skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Around a Point",
+          "Example for Formulae",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -77,19 +77,19 @@
     {
       "id": "s4",
       "title": "Scene 4",
-      "name": "Triangles",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Triangles",
+      "name": "Solve One Step",
+      "icon": "🧮",
+      "enemy": "🤖",
+      "topic": "Expressions, Formulae & Equations",
+      "music": "Solve One Step",
       "teach": [
-        "Learn Triangles.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Solve One Step.",
+        "This scene trains Expressions, Formulae & Equations skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Triangles",
+          "Example for Solve One Step",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -101,19 +101,19 @@
     {
       "id": "s5",
       "title": "Scene 5",
-      "name": "Quadrilaterals",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Quadrilaterals",
+      "name": "Solve Two Step",
+      "icon": "🧮",
+      "enemy": "🤖",
+      "topic": "Expressions, Formulae & Equations",
+      "music": "Solve Two Step",
       "teach": [
-        "Learn Quadrilaterals.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Solve Two Step.",
+        "This scene trains Expressions, Formulae & Equations skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Quadrilaterals",
+          "Example for Solve Two Step",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -125,19 +125,19 @@
     {
       "id": "s6",
       "title": "Scene 6",
-      "name": "Constructions",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Constructions",
+      "name": "Simplify",
+      "icon": "🧮",
+      "enemy": "🤖",
+      "topic": "Expressions, Formulae & Equations",
+      "music": "Simplify",
       "teach": [
-        "Learn Constructions.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Simplify.",
+        "This scene trains Expressions, Formulae & Equations skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Constructions",
+          "Example for Simplify",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -149,19 +149,19 @@
     {
       "id": "s7",
       "title": "Scene 7",
-      "name": "Bearings",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Bearings",
+      "name": "Expand",
+      "icon": "🧮",
+      "enemy": "🤖",
+      "topic": "Expressions, Formulae & Equations",
+      "music": "Expand",
       "teach": [
-        "Learn Bearings.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Expand.",
+        "This scene trains Expressions, Formulae & Equations skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Bearings",
+          "Example for Expand",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -174,13 +174,13 @@
       "id": "boss",
       "title": "Scene 8",
       "name": "Boss Level",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
+      "icon": "🧮",
+      "enemy": "🤖",
+      "topic": "Expressions, Formulae & Equations",
       "music": "Boss Level",
       "teach": [
         "Learn Boss Level.",
-        "This scene trains Angles & Constructions skills.",
+        "This scene trains Expressions, Formulae & Equations skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [

@@ -3,199 +3,194 @@
   "gameName": "Super Data Shooting v3",
   "scenes": [
     {
-      "id": "collect",
+      "id": "s1",
       "title": "Scene 1",
-      "name": "Survey Village",
-      "icon": "🎈",
+      "name": "Collecting Data",
+      "icon": "📊",
       "enemy": "🎈",
       "topic": "Collecting Data",
-      "music": "Survey Village",
+      "music": "Collecting Data",
       "teach": [
-        "Data is information collected to answer a question.",
-        "We collect data to understand people, events, or results.",
-        "A good data collection question is clear and fair.",
-        "Biased questions can make data unreliable."
+        "Learn Collecting Data.",
+        "This scene trains Collecting Data skills.",
+        "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Question: What is your favourite fruit?",
-          "It collects categorical data."
+          "Example for Collecting Data",
+          "Work step by step and choose the correct answer."
         ],
         [
-          "Why is a biased question bad?",
-          "It pushes people toward one answer."
+          "Check your answer",
+          "Use the rule from the lesson."
         ]
       ]
     },
     {
-      "id": "types",
+      "id": "s2",
       "title": "Scene 2",
-      "name": "Data Laboratory",
-      "icon": "👾",
-      "enemy": "👾",
-      "topic": "Types of Data",
-      "music": "Alien Data Lab",
+      "name": "Types of Data",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Types of Data",
       "teach": [
-        "Categorical data uses names or groups.",
-        "Numerical data uses numbers.",
-        "Discrete data is counted.",
-        "Continuous data is measured."
+        "Learn Types of Data.",
+        "This scene trains Collecting Data skills.",
+        "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Number of pets?",
-          "Discrete numerical data."
+          "Example for Types of Data",
+          "Work step by step and choose the correct answer."
         ],
         [
-          "Height?",
-          "Continuous numerical data."
+          "Check your answer",
+          "Use the rule from the lesson."
         ]
       ]
     },
     {
-      "id": "questionnaire",
+      "id": "s3",
       "title": "Scene 3",
-      "name": "Questionnaire City",
-      "icon": "🥷",
-      "enemy": "🥷",
-      "topic": "Questionnaires",
-      "music": "Questionnaire Ninja",
+      "name": "Questionnaires",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Questionnaires",
       "teach": [
-        "A questionnaire is a list of questions.",
-        "Closed questions have fixed choices.",
-        "Open questions allow longer answers.",
-        "Questions should be simple, clear, and neutral."
+        "Learn Questionnaires.",
+        "This scene trains Collecting Data skills.",
+        "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Fixed choices?",
-          "Closed question."
+          "Example for Questionnaires",
+          "Work step by step and choose the correct answer."
         ],
         [
-          "Long answer?",
-          "Open question."
+          "Check your answer",
+          "Use the rule from the lesson."
         ]
       ]
     },
     {
       "id": "tally",
       "title": "Scene 4",
-      "name": "Tally Forest",
-      "icon": "🐟",
-      "enemy": "🐟",
-      "topic": "Tally Charts",
-      "music": "Tally Forest",
+      "name": "Tally Charts",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Tally Charts",
       "teach": [
-        "A tally chart records data quickly.",
-        "Four tally marks are written normally.",
-        "The fifth tally mark crosses the first four.",
-        "Groups of five are easy to count."
+        "Learn Tally Charts.",
+        "This scene trains Collecting Data skills.",
+        "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "||||/ ||",
-          "5 + 2 = 7."
+          "Example for Tally Charts",
+          "Work step by step and choose the correct answer."
         ],
         [
-          "||||/ ||||/",
-          "5 + 5 = 10."
+          "Check your answer",
+          "Use the rule from the lesson."
         ]
       ]
     },
     {
       "id": "frequency",
       "title": "Scene 5",
-      "name": "Frequency Space",
-      "icon": "🚀",
-      "enemy": "🪐",
-      "topic": "Frequency Tables",
-      "music": "Frequency Space",
+      "name": "Frequency Tables",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Frequency Tables",
       "teach": [
-        "Frequency means how often something happens.",
-        "A frequency table organises categories and counts.",
-        "Total frequency means all frequencies added together."
+        "Learn Frequency Tables.",
+        "This scene trains Collecting Data skills.",
+        "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "4,6,10 total?",
-          "20."
+          "Example for Frequency Tables",
+          "Work step by step and choose the correct answer."
         ],
         [
-          "Frequency means?",
-          "How often something occurs."
+          "Check your answer",
+          "Use the rule from the lesson."
         ]
       ]
     },
     {
-      "id": "sampling",
+      "id": "s6",
       "title": "Scene 6",
-      "name": "Sampling Jungle",
-      "icon": "🧟",
-      "enemy": "🧟",
-      "topic": "Sampling",
-      "music": "Sampling Jungle",
+      "name": "Sampling",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Sampling",
       "teach": [
-        "A population is the whole group being studied.",
-        "A sample is a smaller group from the population.",
-        "A good sample should represent the population.",
-        "A biased sample gives unfair results."
+        "Learn Sampling.",
+        "This scene trains Collecting Data skills.",
+        "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Only football players surveyed about sport.",
-          "Biased sample."
+          "Example for Sampling",
+          "Work step by step and choose the correct answer."
         ],
         [
-          "Population?",
-          "Whole group."
+          "Check your answer",
+          "Use the rule from the lesson."
         ]
       ]
     },
     {
-      "id": "organise",
+      "id": "s7",
       "title": "Scene 7",
-      "name": "Data Castle",
-      "icon": "💎",
-      "enemy": "💎",
-      "topic": "Organising Data",
-      "music": "Data Castle",
+      "name": "Organising Data",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Organising Data",
       "teach": [
-        "Raw data is data before it is organised.",
-        "Tables help organise data clearly.",
-        "Organised data makes patterns easier to see."
+        "Learn Organising Data.",
+        "This scene trains Collecting Data skills.",
+        "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "A,B,A,C,A frequency of A?",
-          "3."
+          "Example for Organising Data",
+          "Work step by step and choose the correct answer."
         ],
         [
-          "Why organise data?",
-          "To see patterns."
+          "Check your answer",
+          "Use the rule from the lesson."
         ]
       ]
     },
     {
       "id": "boss",
       "title": "Scene 8",
-      "name": "Dragon Fortress",
-      "icon": "🐉",
-      "enemy": "🐉",
-      "topic": "Data Dragon Boss",
-      "music": "Data Dragon Boss",
+      "name": "Boss Level",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Boss Level",
       "teach": [
-        "Read the question carefully.",
-        "For greater questions, compare numeric values, not text.",
-        "Commas and trailing zeros are normalised before checking."
+        "Learn Boss Level.",
+        "This scene trains Collecting Data skills.",
+        "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "1,250 or 985?",
-          "1,250."
+          "Example for Boss Level",
+          "Work step by step and choose the correct answer."
         ],
         [
-          "2.50 or 2.5?",
-          "Equal."
+          "Check your answer",
+          "Use the rule from the lesson."
         ]
       ]
     }

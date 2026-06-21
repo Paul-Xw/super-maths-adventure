@@ -3,40 +3,194 @@
   "gameName": "Super Decimals Shooting",
   "scenes": [
     {
-      "id": "demo1",
+      "id": "s1",
       "title": "Scene 1",
-      "name": "Decimals Base Camp",
+      "name": "Place Decimals",
       "icon": "🎯",
       "enemy": "🎈",
       "topic": "Decimals",
-      "music": "Decimals",
+      "music": "Place Decimals",
       "teach": [
-        "This is a demo scene for Decimals.",
-        "Full question bank can be expanded later."
+        "Learn Place Decimals.",
+        "This scene trains Decimals skills.",
+        "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Demo",
-          "Choose correct."
+          "Example for Place Decimals",
+          "Work step by step and choose the correct answer."
+        ],
+        [
+          "Check your answer",
+          "Use the rule from the lesson."
         ]
       ]
     },
     {
-      "id": "demo2",
+      "id": "s2",
       "title": "Scene 2",
-      "name": "Decimals Practice",
+      "name": "Add Decimals",
       "icon": "🎯",
       "enemy": "🎈",
       "topic": "Decimals",
-      "music": "Decimals",
+      "music": "Add Decimals",
       "teach": [
-        "Practice Decimals.",
-        "Add more scenes by editing JSON."
+        "Learn Add Decimals.",
+        "This scene trains Decimals skills.",
+        "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Demo",
-          "Answer = correct."
+          "Example for Add Decimals",
+          "Work step by step and choose the correct answer."
+        ],
+        [
+          "Check your answer",
+          "Use the rule from the lesson."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Scene 3",
+      "name": "Subtract Decimals",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Subtract Decimals",
+      "teach": [
+        "Learn Subtract Decimals.",
+        "This scene trains Decimals skills.",
+        "Read the question carefully before shooting."
+      ],
+      "worked": [
+        [
+          "Example for Subtract Decimals",
+          "Work step by step and choose the correct answer."
+        ],
+        [
+          "Check your answer",
+          "Use the rule from the lesson."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Scene 4",
+      "name": "Multiply Decimals",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Multiply Decimals",
+      "teach": [
+        "Learn Multiply Decimals.",
+        "This scene trains Decimals skills.",
+        "Read the question carefully before shooting."
+      ],
+      "worked": [
+        [
+          "Example for Multiply Decimals",
+          "Work step by step and choose the correct answer."
+        ],
+        [
+          "Check your answer",
+          "Use the rule from the lesson."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Scene 5",
+      "name": "Divide Decimals",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Divide Decimals",
+      "teach": [
+        "Learn Divide Decimals.",
+        "This scene trains Decimals skills.",
+        "Read the question carefully before shooting."
+      ],
+      "worked": [
+        [
+          "Example for Divide Decimals",
+          "Work step by step and choose the correct answer."
+        ],
+        [
+          "Check your answer",
+          "Use the rule from the lesson."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Scene 6",
+      "name": "Compare Decimals",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Compare Decimals",
+      "teach": [
+        "Learn Compare Decimals.",
+        "This scene trains Decimals skills.",
+        "Read the question carefully before shooting."
+      ],
+      "worked": [
+        [
+          "Example for Compare Decimals",
+          "Work step by step and choose the correct answer."
+        ],
+        [
+          "Check your answer",
+          "Use the rule from the lesson."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Scene 7",
+      "name": "Round Decimals",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Round Decimals",
+      "teach": [
+        "Learn Round Decimals.",
+        "This scene trains Decimals skills.",
+        "Read the question carefully before shooting."
+      ],
+      "worked": [
+        [
+          "Example for Round Decimals",
+          "Work step by step and choose the correct answer."
+        ],
+        [
+          "Check your answer",
+          "Use the rule from the lesson."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Scene 8",
+      "name": "Boss Level",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Boss Level",
+      "teach": [
+        "Learn Boss Level.",
+        "This scene trains Decimals skills.",
+        "Read the question carefully before shooting."
+      ],
+      "worked": [
+        [
+          "Example for Boss Level",
+          "Work step by step and choose the correct answer."
+        ],
+        [
+          "Check your answer",
+          "Use the rule from the lesson."
         ]
       ]
     }

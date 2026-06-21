@@ -1,23 +1,23 @@
 {
-  "gameSlug": "super-geometry",
-  "gameName": "Super Geometry",
+  "gameSlug": "super-fractions",
+  "gameName": "Super Fractions",
   "scenes": [
     {
       "id": "s1",
       "title": "Scene 1",
-      "name": "Types of Angles",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Types of Angles",
+      "name": "Equivalent Fractions",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Equivalent Fractions",
       "teach": [
-        "Learn Types of Angles.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Equivalent Fractions.",
+        "This scene trains Fractions skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Types of Angles",
+          "Example for Equivalent Fractions",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -29,19 +29,19 @@
     {
       "id": "s2",
       "title": "Scene 2",
-      "name": "Straight Line",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Straight Line",
+      "name": "Simplify",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Simplify",
       "teach": [
-        "Learn Straight Line.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Simplify.",
+        "This scene trains Fractions skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Straight Line",
+          "Example for Simplify",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -53,19 +53,19 @@
     {
       "id": "s3",
       "title": "Scene 3",
-      "name": "Around a Point",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Around a Point",
+      "name": "Add Fractions",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Add Fractions",
       "teach": [
-        "Learn Around a Point.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Add Fractions.",
+        "This scene trains Fractions skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Around a Point",
+          "Example for Add Fractions",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -77,19 +77,19 @@
     {
       "id": "s4",
       "title": "Scene 4",
-      "name": "Triangles",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Triangles",
+      "name": "Subtract Fractions",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Subtract Fractions",
       "teach": [
-        "Learn Triangles.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Subtract Fractions.",
+        "This scene trains Fractions skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Triangles",
+          "Example for Subtract Fractions",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -101,19 +101,19 @@
     {
       "id": "s5",
       "title": "Scene 5",
-      "name": "Quadrilaterals",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Quadrilaterals",
+      "name": "Multiply Fractions",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Multiply Fractions",
       "teach": [
-        "Learn Quadrilaterals.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Multiply Fractions.",
+        "This scene trains Fractions skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Quadrilaterals",
+          "Example for Multiply Fractions",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -125,19 +125,19 @@
     {
       "id": "s6",
       "title": "Scene 6",
-      "name": "Constructions",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Constructions",
+      "name": "Fractions of Amount",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Fractions of Amount",
       "teach": [
-        "Learn Constructions.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Fractions of Amount.",
+        "This scene trains Fractions skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Constructions",
+          "Example for Fractions of Amount",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -149,19 +149,19 @@
     {
       "id": "s7",
       "title": "Scene 7",
-      "name": "Bearings",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Bearings",
+      "name": "Compare Fractions",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Compare Fractions",
       "teach": [
-        "Learn Bearings.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Compare Fractions.",
+        "This scene trains Fractions skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Bearings",
+          "Example for Compare Fractions",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -174,13 +174,13 @@
       "id": "boss",
       "title": "Scene 8",
       "name": "Boss Level",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
       "music": "Boss Level",
       "teach": [
         "Learn Boss Level.",
-        "This scene trains Angles & Constructions skills.",
+        "This scene trains Fractions skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [

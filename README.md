@@ -1,5 +1,5 @@
-# Super Maths Adventure Online v3
+# Super Maths Adventure Online v3.1 Math Pack
 
-Run `sql/smao_v3_patch.sql` in Supabase SQL Editor, then upload all files to GitHub/Cloudflare.
+Run sql/smao_v31_math_pack.sql in Supabase, then upload all files to GitHub/Cloudflare.
 
-Class Code: YEAR8A
+Games: Collecting Data, Integers, Decimals, Place Value, Algebra, Geometry, Fractions, Percentages.

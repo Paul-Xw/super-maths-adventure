@@ -1,23 +1,23 @@
 {
-  "gameSlug": "super-geometry",
-  "gameName": "Super Geometry",
+  "gameSlug": "super-percentages",
+  "gameName": "Super Percentages",
   "scenes": [
     {
       "id": "s1",
       "title": "Scene 1",
-      "name": "Types of Angles",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Types of Angles",
+      "name": "Percentage Basics",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Percentage Basics",
       "teach": [
-        "Learn Types of Angles.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Percentage Basics.",
+        "This scene trains Percentages skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Types of Angles",
+          "Example for Percentage Basics",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -29,19 +29,19 @@
     {
       "id": "s2",
       "title": "Scene 2",
-      "name": "Straight Line",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Straight Line",
+      "name": "Percent of Amount",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Percent of Amount",
       "teach": [
-        "Learn Straight Line.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Percent of Amount.",
+        "This scene trains Percentages skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Straight Line",
+          "Example for Percent of Amount",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -53,19 +53,19 @@
     {
       "id": "s3",
       "title": "Scene 3",
-      "name": "Around a Point",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Around a Point",
+      "name": "Increase",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Increase",
       "teach": [
-        "Learn Around a Point.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Increase.",
+        "This scene trains Percentages skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Around a Point",
+          "Example for Increase",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -77,19 +77,19 @@
     {
       "id": "s4",
       "title": "Scene 4",
-      "name": "Triangles",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Triangles",
+      "name": "Decrease",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Decrease",
       "teach": [
-        "Learn Triangles.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Decrease.",
+        "This scene trains Percentages skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Triangles",
+          "Example for Decrease",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -101,19 +101,19 @@
     {
       "id": "s5",
       "title": "Scene 5",
-      "name": "Quadrilaterals",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Quadrilaterals",
+      "name": "Compare Percent",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Compare Percent",
       "teach": [
-        "Learn Quadrilaterals.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Compare Percent.",
+        "This scene trains Percentages skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Quadrilaterals",
+          "Example for Compare Percent",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -125,19 +125,19 @@
     {
       "id": "s6",
       "title": "Scene 6",
-      "name": "Constructions",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Constructions",
+      "name": "Decimals & Percent",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Decimals & Percent",
       "teach": [
-        "Learn Constructions.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Decimals & Percent.",
+        "This scene trains Percentages skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Constructions",
+          "Example for Decimals & Percent",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -149,19 +149,19 @@
     {
       "id": "s7",
       "title": "Scene 7",
-      "name": "Bearings",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Bearings",
+      "name": "Word Problems",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Word Problems",
       "teach": [
-        "Learn Bearings.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Word Problems.",
+        "This scene trains Percentages skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Bearings",
+          "Example for Word Problems",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -174,13 +174,13 @@
       "id": "boss",
       "title": "Scene 8",
       "name": "Boss Level",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
       "music": "Boss Level",
       "teach": [
         "Learn Boss Level.",
-        "This scene trains Angles & Constructions skills.",
+        "This scene trains Percentages skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [

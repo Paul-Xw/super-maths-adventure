@@ -1,23 +1,23 @@
 {
-  "gameSlug": "super-geometry",
-  "gameName": "Super Geometry",
+  "gameSlug": "super-place-value",
+  "gameName": "Super Numbers",
   "scenes": [
     {
       "id": "s1",
       "title": "Scene 1",
-      "name": "Types of Angles",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Types of Angles",
+      "name": "Thousands",
+      "icon": "🔢",
+      "enemy": "💎",
+      "topic": "Place Value & Rounding",
+      "music": "Thousands",
       "teach": [
-        "Learn Types of Angles.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Thousands.",
+        "This scene trains Place Value & Rounding skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Types of Angles",
+          "Example for Thousands",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -29,19 +29,19 @@
     {
       "id": "s2",
       "title": "Scene 2",
-      "name": "Straight Line",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Straight Line",
+      "name": "Ten Thousands",
+      "icon": "🔢",
+      "enemy": "💎",
+      "topic": "Place Value & Rounding",
+      "music": "Ten Thousands",
       "teach": [
-        "Learn Straight Line.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Ten Thousands.",
+        "This scene trains Place Value & Rounding skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Straight Line",
+          "Example for Ten Thousands",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -53,19 +53,19 @@
     {
       "id": "s3",
       "title": "Scene 3",
-      "name": "Around a Point",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Around a Point",
+      "name": "Compare Numbers",
+      "icon": "🔢",
+      "enemy": "💎",
+      "topic": "Place Value & Rounding",
+      "music": "Compare Numbers",
       "teach": [
-        "Learn Around a Point.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Compare Numbers.",
+        "This scene trains Place Value & Rounding skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Around a Point",
+          "Example for Compare Numbers",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -77,19 +77,19 @@
     {
       "id": "s4",
       "title": "Scene 4",
-      "name": "Triangles",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Triangles",
+      "name": "Rounding",
+      "icon": "🔢",
+      "enemy": "💎",
+      "topic": "Place Value & Rounding",
+      "music": "Rounding",
       "teach": [
-        "Learn Triangles.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Rounding.",
+        "This scene trains Place Value & Rounding skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Triangles",
+          "Example for Rounding",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -101,19 +101,19 @@
     {
       "id": "s5",
       "title": "Scene 5",
-      "name": "Quadrilaterals",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Quadrilaterals",
+      "name": "Estimate",
+      "icon": "🔢",
+      "enemy": "💎",
+      "topic": "Place Value & Rounding",
+      "music": "Estimate",
       "teach": [
-        "Learn Quadrilaterals.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Estimate.",
+        "This scene trains Place Value & Rounding skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Quadrilaterals",
+          "Example for Estimate",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -125,19 +125,19 @@
     {
       "id": "s6",
       "title": "Scene 6",
-      "name": "Constructions",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Constructions",
+      "name": "Number Lines",
+      "icon": "🔢",
+      "enemy": "💎",
+      "topic": "Place Value & Rounding",
+      "music": "Number Lines",
       "teach": [
-        "Learn Constructions.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Number Lines.",
+        "This scene trains Place Value & Rounding skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Constructions",
+          "Example for Number Lines",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -149,19 +149,19 @@
     {
       "id": "s7",
       "title": "Scene 7",
-      "name": "Bearings",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
-      "music": "Bearings",
+      "name": "Word Form",
+      "icon": "🔢",
+      "enemy": "💎",
+      "topic": "Place Value & Rounding",
+      "music": "Word Form",
       "teach": [
-        "Learn Bearings.",
-        "This scene trains Angles & Constructions skills.",
+        "Learn Word Form.",
+        "This scene trains Place Value & Rounding skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
         [
-          "Example for Bearings",
+          "Example for Word Form",
           "Work step by step and choose the correct answer."
         ],
         [
@@ -174,13 +174,13 @@
       "id": "boss",
       "title": "Scene 8",
       "name": "Boss Level",
-      "icon": "📐",
-      "enemy": "🐉",
-      "topic": "Angles & Constructions",
+      "icon": "🔢",
+      "enemy": "💎",
+      "topic": "Place Value & Rounding",
       "music": "Boss Level",
       "teach": [
         "Learn Boss Level.",
-        "This scene trains Angles & Constructions skills.",
+        "This scene trains Place Value & Rounding skills.",
         "Read the question carefully before shooting."
       ],
       "worked": [
