@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-10-percentages",
+  "gameName": "Percentage Town",
+  "world": 10,
+  "topic": "Percentages",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Percentage increases and decreases",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Percentage increases and decreases",
+      "teach": [
+        "Learn Percentage increases and decreases.",
+        "This level trains Percentages.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Percentage increases and decreases",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Using a multiplier",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Using a multiplier",
+      "teach": [
+        "Learn Using a multiplier.",
+        "This level trains Percentages.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Using a multiplier",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "Percent of amount",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Percent of amount",
+      "teach": [
+        "Learn Percent of amount.",
+        "This level trains Percentages.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Percent of amount",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Level 4",
+      "name": "Reverse percentages",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Reverse percentages",
+      "teach": [
+        "Learn Reverse percentages.",
+        "This level trains Percentages.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Reverse percentages",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Level 5",
+      "name": "Compare percentages",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Compare percentages",
+      "teach": [
+        "Learn Compare percentages.",
+        "This level trains Percentages.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Compare percentages",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Percentage word problems",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Percentage word problems",
+      "teach": [
+        "Learn Percentage word problems.",
+        "This level trains Percentages.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Percentage word problems",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "Shop discount quest",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Shop discount quest",
+      "teach": [
+        "Learn Shop discount quest.",
+        "This level trains Percentages.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Shop discount quest",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Boss: Percent Phantom",
+      "icon": "💯",
+      "enemy": "🎯",
+      "topic": "Percentages",
+      "music": "Boss: Percent Phantom",
+      "teach": [
+        "Learn Boss: Percent Phantom.",
+        "This level trains Percentages.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Boss: Percent Phantom",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Percentages: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Percentages: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}

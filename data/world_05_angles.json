@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-5-angles",
+  "gameName": "Geometry Island",
+  "world": 5,
+  "topic": "Angles & Constructions",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Parallel lines",
+      "icon": "📐",
+      "enemy": "🐉",
+      "topic": "Angles & Constructions",
+      "music": "Parallel lines",
+      "teach": [
+        "Learn Parallel lines.",
+        "This level trains Angles & Constructions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Parallel lines",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Exterior angle of a triangle",
+      "icon": "📐",
+      "enemy": "🐉",
+      "topic": "Angles & Constructions",
+      "music": "Exterior angle of a triangle",
+      "teach": [
+        "Learn Exterior angle of a triangle.",
+        "This level trains Angles & Constructions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Exterior angle of a triangle",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "Constructions",
+      "icon": "📐",
+      "enemy": "🐉",
+      "topic": "Angles & Constructions",
+      "music": "Constructions",
+      "teach": [
+        "Learn Constructions.",
+        "This level trains Angles & Constructions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Constructions",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Level 4",
+      "name": "Angle facts",
+      "icon": "📐",
+      "enemy": "🐉",
+      "topic": "Angles & Constructions",
+      "music": "Angle facts",
+      "teach": [
+        "Learn Angle facts.",
+        "This level trains Angles & Constructions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Angle facts",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Level 5",
+      "name": "Triangles",
+      "icon": "📐",
+      "enemy": "🐉",
+      "topic": "Angles & Constructions",
+      "music": "Triangles",
+      "teach": [
+        "Learn Triangles.",
+        "This level trains Angles & Constructions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Triangles",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Quadrilaterals",
+      "icon": "📐",
+      "enemy": "🐉",
+      "topic": "Angles & Constructions",
+      "music": "Quadrilaterals",
+      "teach": [
+        "Learn Quadrilaterals.",
+        "This level trains Angles & Constructions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Quadrilaterals",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "Construction challenge",
+      "icon": "📐",
+      "enemy": "🐉",
+      "topic": "Angles & Constructions",
+      "music": "Construction challenge",
+      "teach": [
+        "Learn Construction challenge.",
+        "This level trains Angles & Constructions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Construction challenge",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Boss: Angle Dragon",
+      "icon": "📐",
+      "enemy": "🐉",
+      "topic": "Angles & Constructions",
+      "music": "Boss: Angle Dragon",
+      "teach": [
+        "Learn Boss: Angle Dragon.",
+        "This level trains Angles & Constructions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Boss: Angle Dragon",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Angles & Constructions: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Angles & Constructions: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}

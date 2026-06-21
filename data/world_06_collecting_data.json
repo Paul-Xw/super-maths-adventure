@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-6-data",
+  "gameName": "Data Forest",
+  "world": 6,
+  "topic": "Collecting Data",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Data collection",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Data collection",
+      "teach": [
+        "Learn Data collection.",
+        "This level trains Collecting Data.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Data collection",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Sampling",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Sampling",
+      "teach": [
+        "Learn Sampling.",
+        "This level trains Collecting Data.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Sampling",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "Questionnaires",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Questionnaires",
+      "teach": [
+        "Learn Questionnaires.",
+        "This level trains Collecting Data.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Questionnaires",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "tally",
+      "title": "Level 4",
+      "name": "Tally charts",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Tally charts",
+      "teach": [
+        "Learn Tally charts.",
+        "This level trains Collecting Data.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Tally charts",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "frequency",
+      "title": "Level 5",
+      "name": "Frequency tables",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Frequency tables",
+      "teach": [
+        "Learn Frequency tables.",
+        "This level trains Collecting Data.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Frequency tables",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Organising data",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Organising data",
+      "teach": [
+        "Learn Organising data.",
+        "This level trains Collecting Data.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Organising data",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "Bias challenge",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Bias challenge",
+      "teach": [
+        "Learn Bias challenge.",
+        "This level trains Collecting Data.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Bias challenge",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Boss: Data Beast",
+      "icon": "📊",
+      "enemy": "🎈",
+      "topic": "Collecting Data",
+      "music": "Boss: Data Beast",
+      "teach": [
+        "Learn Boss: Data Beast.",
+        "This level trains Collecting Data.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Boss: Data Beast",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Collecting Data: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Collecting Data: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}

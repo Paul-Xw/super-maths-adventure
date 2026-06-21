@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-13-probability",
+  "gameName": "Probability Lab",
+  "world": 13,
+  "topic": "Probability",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Calculating probabilities",
+      "icon": "🎲",
+      "enemy": "🎲",
+      "topic": "Probability",
+      "music": "Calculating probabilities",
+      "teach": [
+        "Learn Calculating probabilities.",
+        "This level trains Probability.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Calculating probabilities",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Experimental probability",
+      "icon": "🎲",
+      "enemy": "🎲",
+      "topic": "Probability",
+      "music": "Experimental probability",
+      "teach": [
+        "Learn Experimental probability.",
+        "This level trains Probability.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Experimental probability",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "Theoretical probability",
+      "icon": "🎲",
+      "enemy": "🎲",
+      "topic": "Probability",
+      "music": "Theoretical probability",
+      "teach": [
+        "Learn Theoretical probability.",
+        "This level trains Probability.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Theoretical probability",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Level 4",
+      "name": "Probability scale",
+      "icon": "🎲",
+      "enemy": "🎲",
+      "topic": "Probability",
+      "music": "Probability scale",
+      "teach": [
+        "Learn Probability scale.",
+        "This level trains Probability.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Probability scale",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Level 5",
+      "name": "Expected outcomes",
+      "icon": "🎲",
+      "enemy": "🎲",
+      "topic": "Probability",
+      "music": "Expected outcomes",
+      "teach": [
+        "Learn Expected outcomes.",
+        "This level trains Probability.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Expected outcomes",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Two-way tables",
+      "icon": "🎲",
+      "enemy": "🎲",
+      "topic": "Probability",
+      "music": "Two-way tables",
+      "teach": [
+        "Learn Two-way tables.",
+        "This level trains Probability.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Two-way tables",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "High fives project",
+      "icon": "🎲",
+      "enemy": "🎲",
+      "topic": "Probability",
+      "music": "High fives project",
+      "teach": [
+        "Learn High fives project.",
+        "This level trains Probability.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for High fives project",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Boss: Chance Wizard",
+      "icon": "🎲",
+      "enemy": "🎲",
+      "topic": "Probability",
+      "music": "Boss: Chance Wizard",
+      "teach": [
+        "Learn Boss: Chance Wizard.",
+        "This level trains Probability.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Boss: Chance Wizard",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Probability: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Probability: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}

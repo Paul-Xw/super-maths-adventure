@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-4-decimals",
+  "gameName": "Decimal Ocean",
+  "world": 4,
+  "topic": "Decimals",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Ordering decimals",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Ordering decimals",
+      "teach": [
+        "Learn Ordering decimals.",
+        "This level trains Decimals.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Ordering decimals",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Multiplying decimals",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Multiplying decimals",
+      "teach": [
+        "Learn Multiplying decimals.",
+        "This level trains Decimals.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Multiplying decimals",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "Dividing decimals",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Dividing decimals",
+      "teach": [
+        "Learn Dividing decimals.",
+        "This level trains Decimals.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Dividing decimals",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Level 4",
+      "name": "Decimal calculations",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Decimal calculations",
+      "teach": [
+        "Learn Decimal calculations.",
+        "This level trains Decimals.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Decimal calculations",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Level 5",
+      "name": "Decimal tricks",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Decimal tricks",
+      "teach": [
+        "Learn Decimal tricks.",
+        "This level trains Decimals.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Decimal tricks",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Compare decimals",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Compare decimals",
+      "teach": [
+        "Learn Compare decimals.",
+        "This level trains Decimals.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Compare decimals",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "Diamond decimals project",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Diamond decimals project",
+      "teach": [
+        "Learn Diamond decimals project.",
+        "This level trains Decimals.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Diamond decimals project",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Boss: Decimal Kraken",
+      "icon": "🎯",
+      "enemy": "🎈",
+      "topic": "Decimals",
+      "music": "Boss: Decimal Kraken",
+      "teach": [
+        "Learn Boss: Decimal Kraken.",
+        "This level trains Decimals.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Boss: Decimal Kraken",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Decimals: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Decimals: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}

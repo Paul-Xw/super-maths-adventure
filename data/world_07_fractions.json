@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-7-fractions",
+  "gameName": "Fraction Castle",
+  "world": 7,
+  "topic": "Fractions",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Fractions and recurring decimals",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Fractions and recurring decimals",
+      "teach": [
+        "Learn Fractions and recurring decimals.",
+        "This level trains Fractions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Fractions and recurring decimals",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Ordering fractions",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Ordering fractions",
+      "teach": [
+        "Learn Ordering fractions.",
+        "This level trains Fractions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Ordering fractions",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "Subtracting mixed numbers",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Subtracting mixed numbers",
+      "teach": [
+        "Learn Subtracting mixed numbers.",
+        "This level trains Fractions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Subtracting mixed numbers",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Level 4",
+      "name": "Multiplying mixed numbers",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Multiplying mixed numbers",
+      "teach": [
+        "Learn Multiplying mixed numbers.",
+        "This level trains Fractions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Multiplying mixed numbers",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Level 5",
+      "name": "Dividing by a fraction",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Dividing by a fraction",
+      "teach": [
+        "Learn Dividing by a fraction.",
+        "This level trains Fractions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Dividing by a fraction",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Fraction calculations easier",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Fraction calculations easier",
+      "teach": [
+        "Learn Fraction calculations easier.",
+        "This level trains Fractions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Fraction calculations easier",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "Fraction quest",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Fraction quest",
+      "teach": [
+        "Learn Fraction quest.",
+        "This level trains Fractions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Fraction quest",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Boss: Pizza King",
+      "icon": "🍕",
+      "enemy": "🍕",
+      "topic": "Fractions",
+      "music": "Boss: Pizza King",
+      "teach": [
+        "Learn Boss: Pizza King.",
+        "This level trains Fractions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Boss: Pizza King",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Fractions: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Fractions: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}

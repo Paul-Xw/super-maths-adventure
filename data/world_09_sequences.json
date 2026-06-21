@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-9-sequences",
+  "gameName": "Function Laboratory",
+  "world": 9,
+  "topic": "Sequences & Functions",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Generating sequences",
+      "icon": "📈",
+      "enemy": "🤖",
+      "topic": "Sequences & Functions",
+      "music": "Generating sequences",
+      "teach": [
+        "Learn Generating sequences.",
+        "This level trains Sequences & Functions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Generating sequences",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Finding rules",
+      "icon": "📈",
+      "enemy": "🤖",
+      "topic": "Sequences & Functions",
+      "music": "Finding rules",
+      "teach": [
+        "Learn Finding rules.",
+        "This level trains Sequences & Functions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Finding rules",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "nth term",
+      "icon": "📈",
+      "enemy": "🤖",
+      "topic": "Sequences & Functions",
+      "music": "nth term",
+      "teach": [
+        "Learn nth term.",
+        "This level trains Sequences & Functions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for nth term",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Level 4",
+      "name": "Simple functions",
+      "icon": "📈",
+      "enemy": "🤖",
+      "topic": "Sequences & Functions",
+      "music": "Simple functions",
+      "teach": [
+        "Learn Simple functions.",
+        "This level trains Sequences & Functions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Simple functions",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Level 5",
+      "name": "Function machines",
+      "icon": "📈",
+      "enemy": "🤖",
+      "topic": "Sequences & Functions",
+      "music": "Function machines",
+      "teach": [
+        "Learn Function machines.",
+        "This level trains Sequences & Functions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Function machines",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Representing functions",
+      "icon": "📈",
+      "enemy": "🤖",
+      "topic": "Sequences & Functions",
+      "music": "Representing functions",
+      "teach": [
+        "Learn Representing functions.",
+        "This level trains Sequences & Functions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Representing functions",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "Sequence quest",
+      "icon": "📈",
+      "enemy": "🤖",
+      "topic": "Sequences & Functions",
+      "music": "Sequence quest",
+      "teach": [
+        "Learn Sequence quest.",
+        "This level trains Sequences & Functions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Sequence quest",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Boss: Function Core",
+      "icon": "📈",
+      "enemy": "🤖",
+      "topic": "Sequences & Functions",
+      "music": "Boss: Function Core",
+      "teach": [
+        "Learn Boss: Function Core.",
+        "This level trains Sequences & Functions.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Boss: Function Core",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Sequences & Functions: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Sequences & Functions: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}

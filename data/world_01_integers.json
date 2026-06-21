@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-1-integers",
+  "gameName": "Integer Kingdom",
+  "world": 1,
+  "topic": "Integers",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Factors, multiples and primes",
+      "icon": "🧙‍♂️",
+      "enemy": "👾",
+      "topic": "Integers",
+      "music": "Factors, multiples and primes",
+      "teach": [
+        "Learn Factors, multiples and primes.",
+        "This level trains Integers.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Factors, multiples and primes",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Multiplying and dividing integers",
+      "icon": "🧙‍♂️",
+      "enemy": "👾",
+      "topic": "Integers",
+      "music": "Multiplying and dividing integers",
+      "teach": [
+        "Learn Multiplying and dividing integers.",
+        "This level trains Integers.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Multiplying and dividing integers",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "Square roots and cube roots",
+      "icon": "🧙‍♂️",
+      "enemy": "👾",
+      "topic": "Integers",
+      "music": "Square roots and cube roots",
+      "teach": [
+        "Learn Square roots and cube roots.",
+        "This level trains Integers.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Square roots and cube roots",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Level 4",
+      "name": "Indices",
+      "icon": "🧙‍♂️",
+      "enemy": "👾",
+      "topic": "Integers",
+      "music": "Indices",
+      "teach": [
+        "Learn Indices.",
+        "This level trains Integers.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Indices",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Level 5",
+      "name": "Absolute value",
+      "icon": "🧙‍♂️",
+      "enemy": "👾",
+      "topic": "Integers",
+      "music": "Absolute value",
+      "teach": [
+        "Learn Absolute value.",
+        "This level trains Integers.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Absolute value",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Ordering integers",
+      "icon": "🧙‍♂️",
+      "enemy": "👾",
+      "topic": "Integers",
+      "music": "Ordering integers",
+      "teach": [
+        "Learn Ordering integers.",
+        "This level trains Integers.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Ordering integers",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "Mixed integer challenge",
+      "icon": "🧙‍♂️",
+      "enemy": "👾",
+      "topic": "Integers",
+      "music": "Mixed integer challenge",
+      "teach": [
+        "Learn Mixed integer challenge.",
+        "This level trains Integers.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Mixed integer challenge",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Boss: Integer Dragon",
+      "icon": "🧙‍♂️",
+      "enemy": "👾",
+      "topic": "Integers",
+      "music": "Boss: Integer Dragon",
+      "teach": [
+        "Learn Boss: Integer Dragon.",
+        "This level trains Integers.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Boss: Integer Dragon",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Integers: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Integers: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}

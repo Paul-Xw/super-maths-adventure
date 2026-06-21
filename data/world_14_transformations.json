@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-14-transformations",
+  "gameName": "Transformation Planet",
+  "world": 14,
+  "topic": "Position & Transformation",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Bearings",
+      "icon": "🔄",
+      "enemy": "🛸",
+      "topic": "Position & Transformation",
+      "music": "Bearings",
+      "teach": [
+        "Learn Bearings.",
+        "This level trains Position & Transformation.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Bearings",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Midpoint of a line segment",
+      "icon": "🔄",
+      "enemy": "🛸",
+      "topic": "Position & Transformation",
+      "music": "Midpoint of a line segment",
+      "teach": [
+        "Learn Midpoint of a line segment.",
+        "This level trains Position & Transformation.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Midpoint of a line segment",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "Translating 2D shapes",
+      "icon": "🔄",
+      "enemy": "🛸",
+      "topic": "Position & Transformation",
+      "music": "Translating 2D shapes",
+      "teach": [
+        "Learn Translating 2D shapes.",
+        "This level trains Position & Transformation.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Translating 2D shapes",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Level 4",
+      "name": "Reflecting shapes",
+      "icon": "🔄",
+      "enemy": "🛸",
+      "topic": "Position & Transformation",
+      "music": "Reflecting shapes",
+      "teach": [
+        "Learn Reflecting shapes.",
+        "This level trains Position & Transformation.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Reflecting shapes",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Level 5",
+      "name": "Rotating shapes",
+      "icon": "🔄",
+      "enemy": "🛸",
+      "topic": "Position & Transformation",
+      "music": "Rotating shapes",
+      "teach": [
+        "Learn Rotating shapes.",
+        "This level trains Position & Transformation.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Rotating shapes",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Enlarging shapes",
+      "icon": "🔄",
+      "enemy": "🛸",
+      "topic": "Position & Transformation",
+      "music": "Enlarging shapes",
+      "teach": [
+        "Learn Enlarging shapes.",
+        "This level trains Position & Transformation.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Enlarging shapes",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "Transformation quest",
+      "icon": "🔄",
+      "enemy": "🛸",
+      "topic": "Position & Transformation",
+      "music": "Transformation quest",
+      "teach": [
+        "Learn Transformation quest.",
+        "This level trains Position & Transformation.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Transformation quest",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Boss: Mirror Dragon",
+      "icon": "🔄",
+      "enemy": "🛸",
+      "topic": "Position & Transformation",
+      "music": "Boss: Mirror Dragon",
+      "teach": [
+        "Learn Boss: Mirror Dragon.",
+        "This level trains Position & Transformation.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Boss: Mirror Dragon",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Position & Transformation: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Position & Transformation: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-15-measurement",
+  "gameName": "Measurement Mountain",
+  "world": 15,
+  "topic": "Distance, Area & Volume",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Converting units",
+      "icon": "📦",
+      "enemy": "⛰️",
+      "topic": "Distance, Area & Volume",
+      "music": "Converting units",
+      "teach": [
+        "Learn Converting units.",
+        "This level trains Distance, Area & Volume.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Converting units",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Area of parallelogram and trapezium",
+      "icon": "📦",
+      "enemy": "⛰️",
+      "topic": "Distance, Area & Volume",
+      "music": "Area of parallelogram and trapezium",
+      "teach": [
+        "Learn Area of parallelogram and trapezium.",
+        "This level trains Distance, Area & Volume.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Area of parallelogram and trapezium",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "Volume of triangular prism",
+      "icon": "📦",
+      "enemy": "⛰️",
+      "topic": "Distance, Area & Volume",
+      "music": "Volume of triangular prism",
+      "teach": [
+        "Learn Volume of triangular prism.",
+        "This level trains Distance, Area & Volume.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Volume of triangular prism",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Level 4",
+      "name": "Surface area of prisms",
+      "icon": "📦",
+      "enemy": "⛰️",
+      "topic": "Distance, Area & Volume",
+      "music": "Surface area of prisms",
+      "teach": [
+        "Learn Surface area of prisms.",
+        "This level trains Distance, Area & Volume.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Surface area of prisms",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Level 5",
+      "name": "Pyramids",
+      "icon": "📦",
+      "enemy": "⛰️",
+      "topic": "Distance, Area & Volume",
+      "music": "Pyramids",
+      "teach": [
+        "Learn Pyramids.",
+        "This level trains Distance, Area & Volume.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Pyramids",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Compound measures",
+      "icon": "📦",
+      "enemy": "⛰️",
+      "topic": "Distance, Area & Volume",
+      "music": "Compound measures",
+      "teach": [
+        "Learn Compound measures.",
+        "This level trains Distance, Area & Volume.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Compound measures",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "Biggest cuboid project",
+      "icon": "📦",
+      "enemy": "⛰️",
+      "topic": "Distance, Area & Volume",
+      "music": "Biggest cuboid project",
+      "teach": [
+        "Learn Biggest cuboid project.",
+        "This level trains Distance, Area & Volume.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Biggest cuboid project",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Boss: Volume Giant",
+      "icon": "📦",
+      "enemy": "⛰️",
+      "topic": "Distance, Area & Volume",
+      "music": "Boss: Volume Giant",
+      "teach": [
+        "Learn Boss: Volume Giant.",
+        "This level trains Distance, Area & Volume.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Boss: Volume Giant",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Distance, Area & Volume: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Distance, Area & Volume: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}

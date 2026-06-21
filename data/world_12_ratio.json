@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-12-ratio",
+  "gameName": "Ratio Valley",
+  "world": 12,
+  "topic": "Ratio & Proportion",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Simplifying ratios",
+      "icon": "⚖️",
+      "enemy": "⚖️",
+      "topic": "Ratio & Proportion",
+      "music": "Simplifying ratios",
+      "teach": [
+        "Learn Simplifying ratios.",
+        "This level trains Ratio & Proportion.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Simplifying ratios",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Sharing in a ratio",
+      "icon": "⚖️",
+      "enemy": "⚖️",
+      "topic": "Ratio & Proportion",
+      "music": "Sharing in a ratio",
+      "teach": [
+        "Learn Sharing in a ratio.",
+        "This level trains Ratio & Proportion.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Sharing in a ratio",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "Ratio and direct proportion",
+      "icon": "⚖️",
+      "enemy": "⚖️",
+      "topic": "Ratio & Proportion",
+      "music": "Ratio and direct proportion",
+      "teach": [
+        "Learn Ratio and direct proportion.",
+        "This level trains Ratio & Proportion.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Ratio and direct proportion",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Level 4",
+      "name": "Unitary method",
+      "icon": "⚖️",
+      "enemy": "⚖️",
+      "topic": "Ratio & Proportion",
+      "music": "Unitary method",
+      "teach": [
+        "Learn Unitary method.",
+        "This level trains Ratio & Proportion.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Unitary method",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Level 5",
+      "name": "Scale problems",
+      "icon": "⚖️",
+      "enemy": "⚖️",
+      "topic": "Ratio & Proportion",
+      "music": "Scale problems",
+      "teach": [
+        "Learn Scale problems.",
+        "This level trains Ratio & Proportion.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Scale problems",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Proportion tables",
+      "icon": "⚖️",
+      "enemy": "⚖️",
+      "topic": "Ratio & Proportion",
+      "music": "Proportion tables",
+      "teach": [
+        "Learn Proportion tables.",
+        "This level trains Ratio & Proportion.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Proportion tables",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "Recipe quest",
+      "icon": "⚖️",
+      "enemy": "⚖️",
+      "topic": "Ratio & Proportion",
+      "music": "Recipe quest",
+      "teach": [
+        "Learn Recipe quest.",
+        "This level trains Ratio & Proportion.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Recipe quest",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Boss: Ratio Golem",
+      "icon": "⚖️",
+      "enemy": "⚖️",
+      "topic": "Ratio & Proportion",
+      "music": "Boss: Ratio Golem",
+      "teach": [
+        "Learn Boss: Ratio Golem.",
+        "This level trains Ratio & Proportion.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Boss: Ratio Golem",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Ratio & Proportion: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Ratio & Proportion: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}

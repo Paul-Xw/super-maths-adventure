@@ -1,4 +1,6 @@
-import{SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY}from'./config.js';export const ok=SUPABASE_URL.includes('.supabase.co')&&SUPABASE_PUBLISHABLE_KEY.startsWith('sb_publishable_');export const sb=ok?window.supabase.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY):null;
+import{SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY}from'./config.js';
+export const ok=SUPABASE_URL.includes('.supabase.co')&&SUPABASE_PUBLISHABLE_KEY.startsWith('sb_publishable_');
+export const sb=ok?window.supabase.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY):null;
 export async function getGameId(slug){if(!sb)return null;const{data}=await sb.from('games').select('id').eq('game_slug',slug).maybeSingle();return data?.id}
 export async function getSceneId(gameId,sceneNo){if(!sb||!gameId)return null;const{data}=await sb.from('game_scenes').select('id').eq('game_id',gameId).eq('scene_no',sceneNo).maybeSingle();return data?.id}
 export async function getClass(code){if(!sb)return null;const{data}=await sb.from('classes').select('id,class_name,class_code').eq('class_code',String(code).toUpperCase()).maybeSingle();return data}

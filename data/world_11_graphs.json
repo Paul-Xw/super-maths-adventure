@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-11-graphs",
+  "gameName": "Graph City",
+  "world": 11,
+  "topic": "Graphs",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Functions",
+      "icon": "📉",
+      "enemy": "📈",
+      "topic": "Graphs",
+      "music": "Functions",
+      "teach": [
+        "Learn Functions.",
+        "This level trains Graphs.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Functions",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Plotting graphs",
+      "icon": "📉",
+      "enemy": "📈",
+      "topic": "Graphs",
+      "music": "Plotting graphs",
+      "teach": [
+        "Learn Plotting graphs.",
+        "This level trains Graphs.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Plotting graphs",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "Gradient and intercept",
+      "icon": "📉",
+      "enemy": "📈",
+      "topic": "Graphs",
+      "music": "Gradient and intercept",
+      "teach": [
+        "Learn Gradient and intercept.",
+        "This level trains Graphs.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Gradient and intercept",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Level 4",
+      "name": "Interpreting graphs",
+      "icon": "📉",
+      "enemy": "📈",
+      "topic": "Graphs",
+      "music": "Interpreting graphs",
+      "teach": [
+        "Learn Interpreting graphs.",
+        "This level trains Graphs.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Interpreting graphs",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Level 5",
+      "name": "Graph stories",
+      "icon": "📉",
+      "enemy": "📈",
+      "topic": "Graphs",
+      "music": "Graph stories",
+      "teach": [
+        "Learn Graph stories.",
+        "This level trains Graphs.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Graph stories",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Coordinate challenge",
+      "icon": "📉",
+      "enemy": "📈",
+      "topic": "Graphs",
+      "music": "Coordinate challenge",
+      "teach": [
+        "Learn Coordinate challenge.",
+        "This level trains Graphs.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Coordinate challenge",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "Straight line mix-up project",
+      "icon": "📉",
+      "enemy": "📈",
+      "topic": "Graphs",
+      "music": "Straight line mix-up project",
+      "teach": [
+        "Learn Straight line mix-up project.",
+        "This level trains Graphs.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Straight line mix-up project",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Boss: Graph Guardian",
+      "icon": "📉",
+      "enemy": "📈",
+      "topic": "Graphs",
+      "music": "Boss: Graph Guardian",
+      "teach": [
+        "Learn Boss: Graph Guardian.",
+        "This level trains Graphs.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Boss: Graph Guardian",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Graphs: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Graphs: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}

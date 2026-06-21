@@ -1,0 +1,224 @@
+{
+  "gameSlug": "world-16-statistics",
+  "gameName": "Statistics Universe",
+  "world": 16,
+  "topic": "Interpreting & Discussing Results",
+  "scenes": [
+    {
+      "id": "s1",
+      "title": "Level 1",
+      "name": "Interpreting frequency diagrams",
+      "icon": "📊",
+      "enemy": "🌌",
+      "topic": "Interpreting & Discussing Results",
+      "music": "Interpreting frequency diagrams",
+      "teach": [
+        "Learn Interpreting frequency diagrams.",
+        "This level trains Interpreting & Discussing Results.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Interpreting frequency diagrams",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Level 2",
+      "name": "Time series graphs",
+      "icon": "📊",
+      "enemy": "🌌",
+      "topic": "Interpreting & Discussing Results",
+      "music": "Time series graphs",
+      "teach": [
+        "Learn Time series graphs.",
+        "This level trains Interpreting & Discussing Results.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Time series graphs",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Level 3",
+      "name": "Stem-and-leaf diagrams",
+      "icon": "📊",
+      "enemy": "🌌",
+      "topic": "Interpreting & Discussing Results",
+      "music": "Stem-and-leaf diagrams",
+      "teach": [
+        "Learn Stem-and-leaf diagrams.",
+        "This level trains Interpreting & Discussing Results.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Stem-and-leaf diagrams",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Level 4",
+      "name": "Pie charts",
+      "icon": "📊",
+      "enemy": "🌌",
+      "topic": "Interpreting & Discussing Results",
+      "music": "Pie charts",
+      "teach": [
+        "Learn Pie charts.",
+        "This level trains Interpreting & Discussing Results.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Pie charts",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Level 5",
+      "name": "Representing data",
+      "icon": "📊",
+      "enemy": "🌌",
+      "topic": "Interpreting & Discussing Results",
+      "music": "Representing data",
+      "teach": [
+        "Learn Representing data.",
+        "This level trains Interpreting & Discussing Results.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Representing data",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Level 6",
+      "name": "Using statistics",
+      "icon": "📊",
+      "enemy": "🌌",
+      "topic": "Interpreting & Discussing Results",
+      "music": "Using statistics",
+      "teach": [
+        "Learn Using statistics.",
+        "This level trains Interpreting & Discussing Results.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Using statistics",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Level 7",
+      "name": "Statistics investigation",
+      "icon": "📊",
+      "enemy": "🌌",
+      "topic": "Interpreting & Discussing Results",
+      "music": "Statistics investigation",
+      "teach": [
+        "Learn Statistics investigation.",
+        "This level trains Interpreting & Discussing Results.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Statistics investigation",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    },
+    {
+      "id": "boss",
+      "title": "Level 8",
+      "name": "Final Boss: Data Universe",
+      "icon": "📊",
+      "enemy": "🌌",
+      "topic": "Interpreting & Discussing Results",
+      "music": "Final Boss: Data Universe",
+      "teach": [
+        "Learn Final Boss: Data Universe.",
+        "This level trains Interpreting & Discussing Results.",
+        "Use the rule carefully before choosing an answer."
+      ],
+      "worked": [
+        [
+          "Example for Final Boss: Data Universe",
+          "Read the question, identify the rule, then calculate step by step."
+        ],
+        [
+          "Check",
+          "Compare your result with the choices."
+        ]
+      ]
+    }
+  ],
+  "qaQuestions": [
+    {
+      "text": "Interpreting & Discussing Results: choose the correct answer",
+      "options": [
+        "correct",
+        "wrong A",
+        "wrong B",
+        "wrong C"
+      ],
+      "answer": "correct",
+      "thai": "เลือกคำตอบที่ถูกต้อง"
+    },
+    {
+      "text": "Interpreting & Discussing Results: true or false starter",
+      "options": [
+        "true",
+        "false",
+        "A",
+        "B"
+      ],
+      "answer": "true",
+      "thai": "โจทย์จริงหรือเท็จ"
+    }
+  ]
+}
