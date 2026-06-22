@@ -7,3 +7,11 @@
 - BGM/SFX ด้วย Web Audio API ไม่ต้องมี mp3
 - Laser, correct, wrong, coin, boss hit, victory
 - Coin popup และ achievement toast
+
+
+## v4.1.1 Hotfix
+
+แก้:
+- JavaScript Error: nonText is not defined
+- เปลี่ยนกลับเป็น popText()
+- เพิ่ม fallback popText/toast กัน error ซ้ำ
