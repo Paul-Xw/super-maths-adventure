@@ -1,1 +1,1 @@
-console.log('Use in-app QA Runner: Home > Run QA');
+Use in-app QA Runner with Role = Teacher.

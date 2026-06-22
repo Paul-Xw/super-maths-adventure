@@ -12,10 +12,19 @@
       "enemy": "🛸",
       "topic": "Position & Transformation",
       "music": "Bearings",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Bearings.",
         "This level trains Position & Transformation.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -23,128 +32,173 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
     {
       "id": "s2",
       "title": "Level 2",
-      "name": "Midpoint of a line segment",
+      "name": "Midpoint",
       "icon": "🔄",
       "enemy": "🛸",
       "topic": "Position & Transformation",
-      "music": "Midpoint of a line segment",
+      "music": "Midpoint",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
-        "Learn Midpoint of a line segment.",
+        "Learn Midpoint.",
         "This level trains Position & Transformation.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
-          "Example for Midpoint of a line segment",
+          "Example for Midpoint",
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
     {
       "id": "s3",
       "title": "Level 3",
-      "name": "Translating 2D shapes",
+      "name": "Translation",
       "icon": "🔄",
       "enemy": "🛸",
       "topic": "Position & Transformation",
-      "music": "Translating 2D shapes",
+      "music": "Translation",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
-        "Learn Translating 2D shapes.",
+        "Learn Translation.",
         "This level trains Position & Transformation.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
-          "Example for Translating 2D shapes",
+          "Example for Translation",
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
     {
       "id": "s4",
       "title": "Level 4",
-      "name": "Reflecting shapes",
+      "name": "Reflection",
       "icon": "🔄",
       "enemy": "🛸",
       "topic": "Position & Transformation",
-      "music": "Reflecting shapes",
+      "music": "Reflection",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
-        "Learn Reflecting shapes.",
+        "Learn Reflection.",
         "This level trains Position & Transformation.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
-          "Example for Reflecting shapes",
+          "Example for Reflection",
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
     {
       "id": "s5",
       "title": "Level 5",
-      "name": "Rotating shapes",
+      "name": "Rotation",
       "icon": "🔄",
       "enemy": "🛸",
       "topic": "Position & Transformation",
-      "music": "Rotating shapes",
+      "music": "Rotation",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
-        "Learn Rotating shapes.",
+        "Learn Rotation.",
         "This level trains Position & Transformation.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
-          "Example for Rotating shapes",
+          "Example for Rotation",
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
     {
       "id": "s6",
       "title": "Level 6",
-      "name": "Enlarging shapes",
+      "name": "Enlargement",
       "icon": "🔄",
       "enemy": "🛸",
       "topic": "Position & Transformation",
-      "music": "Enlarging shapes",
+      "music": "Enlargement",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
-        "Learn Enlarging shapes.",
+        "Learn Enlargement.",
         "This level trains Position & Transformation.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
-          "Example for Enlarging shapes",
+          "Example for Enlargement",
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -156,10 +210,19 @@
       "enemy": "🛸",
       "topic": "Position & Transformation",
       "music": "Transformation quest",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Transformation quest.",
         "This level trains Position & Transformation.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -167,8 +230,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -180,10 +243,19 @@
       "enemy": "🛸",
       "topic": "Position & Transformation",
       "music": "Boss: Mirror Dragon",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Boss: Mirror Dragon.",
         "This level trains Position & Transformation.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -191,8 +263,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     }
@@ -208,17 +280,6 @@
       ],
       "answer": "correct",
       "thai": "เลือกคำตอบที่ถูกต้อง"
-    },
-    {
-      "text": "Position & Transformation: true or false starter",
-      "options": [
-        "true",
-        "false",
-        "A",
-        "B"
-      ],
-      "answer": "true",
-      "thai": "โจทย์จริงหรือเท็จ"
     }
   ]
 }

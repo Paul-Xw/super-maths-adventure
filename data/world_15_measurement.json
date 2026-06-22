@@ -12,10 +12,19 @@
       "enemy": "⛰️",
       "topic": "Distance, Area & Volume",
       "music": "Converting units",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Converting units.",
         "This level trains Distance, Area & Volume.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -23,80 +32,107 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
     {
       "id": "s2",
       "title": "Level 2",
-      "name": "Area of parallelogram and trapezium",
+      "name": "Area",
       "icon": "📦",
       "enemy": "⛰️",
       "topic": "Distance, Area & Volume",
-      "music": "Area of parallelogram and trapezium",
+      "music": "Area",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
-        "Learn Area of parallelogram and trapezium.",
+        "Learn Area.",
         "This level trains Distance, Area & Volume.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
-          "Example for Area of parallelogram and trapezium",
+          "Example for Area",
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
     {
       "id": "s3",
       "title": "Level 3",
-      "name": "Volume of triangular prism",
+      "name": "Volume",
       "icon": "📦",
       "enemy": "⛰️",
       "topic": "Distance, Area & Volume",
-      "music": "Volume of triangular prism",
+      "music": "Volume",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
-        "Learn Volume of triangular prism.",
+        "Learn Volume.",
         "This level trains Distance, Area & Volume.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
-          "Example for Volume of triangular prism",
+          "Example for Volume",
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
     {
       "id": "s4",
       "title": "Level 4",
-      "name": "Surface area of prisms",
+      "name": "Surface area",
       "icon": "📦",
       "enemy": "⛰️",
       "topic": "Distance, Area & Volume",
-      "music": "Surface area of prisms",
+      "music": "Surface area",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
-        "Learn Surface area of prisms.",
+        "Learn Surface area.",
         "This level trains Distance, Area & Volume.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
-          "Example for Surface area of prisms",
+          "Example for Surface area",
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -108,10 +144,19 @@
       "enemy": "⛰️",
       "topic": "Distance, Area & Volume",
       "music": "Pyramids",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Pyramids.",
         "This level trains Distance, Area & Volume.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -119,8 +164,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -132,10 +177,19 @@
       "enemy": "⛰️",
       "topic": "Distance, Area & Volume",
       "music": "Compound measures",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Compound measures.",
         "This level trains Distance, Area & Volume.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -143,8 +197,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -156,10 +210,19 @@
       "enemy": "⛰️",
       "topic": "Distance, Area & Volume",
       "music": "Biggest cuboid project",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Biggest cuboid project.",
         "This level trains Distance, Area & Volume.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -167,8 +230,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -180,10 +243,19 @@
       "enemy": "⛰️",
       "topic": "Distance, Area & Volume",
       "music": "Boss: Volume Giant",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Boss: Volume Giant.",
         "This level trains Distance, Area & Volume.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -191,8 +263,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     }
@@ -208,17 +280,6 @@
       ],
       "answer": "correct",
       "thai": "เลือกคำตอบที่ถูกต้อง"
-    },
-    {
-      "text": "Distance, Area & Volume: true or false starter",
-      "options": [
-        "true",
-        "false",
-        "A",
-        "B"
-      ],
-      "answer": "true",
-      "thai": "โจทย์จริงหรือเท็จ"
     }
   ]
 }

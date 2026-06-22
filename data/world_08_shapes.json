@@ -12,10 +12,19 @@
       "enemy": "💎",
       "topic": "Shapes & Symmetry",
       "music": "Quadrilaterals and polygons",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Quadrilaterals and polygons.",
         "This level trains Shapes & Symmetry.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -23,8 +32,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -36,10 +45,19 @@
       "enemy": "💎",
       "topic": "Shapes & Symmetry",
       "music": "Circumference of a circle",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Circumference of a circle.",
         "This level trains Shapes & Symmetry.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -47,8 +65,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -60,10 +78,19 @@
       "enemy": "💎",
       "topic": "Shapes & Symmetry",
       "music": "3D shapes",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn 3D shapes.",
         "This level trains Shapes & Symmetry.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -71,8 +98,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -84,10 +111,19 @@
       "enemy": "💎",
       "topic": "Shapes & Symmetry",
       "music": "Symmetry",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Symmetry.",
         "This level trains Shapes & Symmetry.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -95,8 +131,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -108,10 +144,19 @@
       "enemy": "💎",
       "topic": "Shapes & Symmetry",
       "music": "Shape properties",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Shape properties.",
         "This level trains Shapes & Symmetry.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -119,8 +164,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -132,10 +177,19 @@
       "enemy": "💎",
       "topic": "Shapes & Symmetry",
       "music": "Tiling",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Tiling.",
         "This level trains Shapes & Symmetry.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -143,8 +197,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -156,10 +210,19 @@
       "enemy": "💎",
       "topic": "Shapes & Symmetry",
       "music": "Quadrilateral project",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Quadrilateral project.",
         "This level trains Shapes & Symmetry.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -167,8 +230,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -180,10 +243,19 @@
       "enemy": "💎",
       "topic": "Shapes & Symmetry",
       "music": "Boss: Polygon Titan",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Boss: Polygon Titan.",
         "This level trains Shapes & Symmetry.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -191,8 +263,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     }
@@ -208,17 +280,6 @@
       ],
       "answer": "correct",
       "thai": "เลือกคำตอบที่ถูกต้อง"
-    },
-    {
-      "text": "Shapes & Symmetry: true or false starter",
-      "options": [
-        "true",
-        "false",
-        "A",
-        "B"
-      ],
-      "answer": "true",
-      "thai": "โจทย์จริงหรือเท็จ"
     }
   ]
 }

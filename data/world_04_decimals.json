@@ -12,10 +12,19 @@
       "enemy": "🎈",
       "topic": "Decimals",
       "music": "Ordering decimals",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Ordering decimals.",
         "This level trains Decimals.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -23,8 +32,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -36,10 +45,19 @@
       "enemy": "🎈",
       "topic": "Decimals",
       "music": "Multiplying decimals",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Multiplying decimals.",
         "This level trains Decimals.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -47,8 +65,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -60,10 +78,19 @@
       "enemy": "🎈",
       "topic": "Decimals",
       "music": "Dividing decimals",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Dividing decimals.",
         "This level trains Decimals.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -71,8 +98,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -84,10 +111,19 @@
       "enemy": "🎈",
       "topic": "Decimals",
       "music": "Decimal calculations",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Decimal calculations.",
         "This level trains Decimals.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -95,8 +131,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -108,10 +144,19 @@
       "enemy": "🎈",
       "topic": "Decimals",
       "music": "Decimal tricks",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Decimal tricks.",
         "This level trains Decimals.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -119,8 +164,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -132,10 +177,19 @@
       "enemy": "🎈",
       "topic": "Decimals",
       "music": "Compare decimals",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Compare decimals.",
         "This level trains Decimals.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -143,8 +197,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -156,10 +210,19 @@
       "enemy": "🎈",
       "topic": "Decimals",
       "music": "Diamond decimals project",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Diamond decimals project.",
         "This level trains Decimals.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -167,8 +230,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -180,10 +243,19 @@
       "enemy": "🎈",
       "topic": "Decimals",
       "music": "Boss: Decimal Kraken",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Boss: Decimal Kraken.",
         "This level trains Decimals.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -191,8 +263,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     }
@@ -208,17 +280,6 @@
       ],
       "answer": "correct",
       "thai": "เลือกคำตอบที่ถูกต้อง"
-    },
-    {
-      "text": "Decimals: true or false starter",
-      "options": [
-        "true",
-        "false",
-        "A",
-        "B"
-      ],
-      "answer": "true",
-      "thai": "โจทย์จริงหรือเท็จ"
     }
   ]
 }

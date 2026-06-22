@@ -12,10 +12,19 @@
       "enemy": "🎯",
       "topic": "Percentages",
       "music": "Percentage increases and decreases",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Percentage increases and decreases.",
         "This level trains Percentages.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -23,8 +32,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -36,10 +45,19 @@
       "enemy": "🎯",
       "topic": "Percentages",
       "music": "Using a multiplier",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Using a multiplier.",
         "This level trains Percentages.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -47,8 +65,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -60,10 +78,19 @@
       "enemy": "🎯",
       "topic": "Percentages",
       "music": "Percent of amount",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Percent of amount.",
         "This level trains Percentages.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -71,8 +98,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -84,10 +111,19 @@
       "enemy": "🎯",
       "topic": "Percentages",
       "music": "Reverse percentages",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Reverse percentages.",
         "This level trains Percentages.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -95,8 +131,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -108,10 +144,19 @@
       "enemy": "🎯",
       "topic": "Percentages",
       "music": "Compare percentages",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Compare percentages.",
         "This level trains Percentages.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -119,8 +164,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -132,10 +177,19 @@
       "enemy": "🎯",
       "topic": "Percentages",
       "music": "Percentage word problems",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Percentage word problems.",
         "This level trains Percentages.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -143,8 +197,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -156,10 +210,19 @@
       "enemy": "🎯",
       "topic": "Percentages",
       "music": "Shop discount quest",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Shop discount quest.",
         "This level trains Percentages.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -167,8 +230,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -180,10 +243,19 @@
       "enemy": "🎯",
       "topic": "Percentages",
       "music": "Boss: Percent Phantom",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Boss: Percent Phantom.",
         "This level trains Percentages.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -191,8 +263,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     }
@@ -208,17 +280,6 @@
       ],
       "answer": "correct",
       "thai": "เลือกคำตอบที่ถูกต้อง"
-    },
-    {
-      "text": "Percentages: true or false starter",
-      "options": [
-        "true",
-        "false",
-        "A",
-        "B"
-      ],
-      "answer": "true",
-      "thai": "โจทย์จริงหรือเท็จ"
     }
   ]
 }

@@ -5,74 +5,101 @@
   "topic": "Interpreting & Discussing Results",
   "scenes": [
     {
-      "id": "s1",
+      "id": "frequency",
       "title": "Level 1",
-      "name": "Interpreting frequency diagrams",
+      "name": "Frequency diagrams",
       "icon": "📊",
       "enemy": "🌌",
       "topic": "Interpreting & Discussing Results",
-      "music": "Interpreting frequency diagrams",
+      "music": "Frequency diagrams",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
-        "Learn Interpreting frequency diagrams.",
+        "Learn Frequency diagrams.",
         "This level trains Interpreting & Discussing Results.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
-          "Example for Interpreting frequency diagrams",
+          "Example for Frequency diagrams",
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
     {
       "id": "s2",
       "title": "Level 2",
-      "name": "Time series graphs",
+      "name": "Time series",
       "icon": "📊",
       "enemy": "🌌",
       "topic": "Interpreting & Discussing Results",
-      "music": "Time series graphs",
+      "music": "Time series",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
-        "Learn Time series graphs.",
+        "Learn Time series.",
         "This level trains Interpreting & Discussing Results.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
-          "Example for Time series graphs",
+          "Example for Time series",
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
     {
       "id": "s3",
       "title": "Level 3",
-      "name": "Stem-and-leaf diagrams",
+      "name": "Stem-and-leaf",
       "icon": "📊",
       "enemy": "🌌",
       "topic": "Interpreting & Discussing Results",
-      "music": "Stem-and-leaf diagrams",
+      "music": "Stem-and-leaf",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
-        "Learn Stem-and-leaf diagrams.",
+        "Learn Stem-and-leaf.",
         "This level trains Interpreting & Discussing Results.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
-          "Example for Stem-and-leaf diagrams",
+          "Example for Stem-and-leaf",
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -84,10 +111,19 @@
       "enemy": "🌌",
       "topic": "Interpreting & Discussing Results",
       "music": "Pie charts",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Pie charts.",
         "This level trains Interpreting & Discussing Results.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -95,8 +131,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -108,10 +144,19 @@
       "enemy": "🌌",
       "topic": "Interpreting & Discussing Results",
       "music": "Representing data",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Representing data.",
         "This level trains Interpreting & Discussing Results.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -119,8 +164,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -132,10 +177,19 @@
       "enemy": "🌌",
       "topic": "Interpreting & Discussing Results",
       "music": "Using statistics",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Using statistics.",
         "This level trains Interpreting & Discussing Results.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -143,8 +197,8 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
@@ -156,10 +210,19 @@
       "enemy": "🌌",
       "topic": "Interpreting & Discussing Results",
       "music": "Statistics investigation",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
         "Learn Statistics investigation.",
         "This level trains Interpreting & Discussing Results.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
@@ -167,32 +230,41 @@
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     },
     {
       "id": "boss",
       "title": "Level 8",
-      "name": "Final Boss: Data Universe",
+      "name": "Final Boss",
       "icon": "📊",
       "enemy": "🌌",
       "topic": "Interpreting & Discussing Results",
-      "music": "Final Boss: Data Universe",
+      "music": "Final Boss",
+      "loop": [
+        "Story",
+        "Learn",
+        "Worked Example",
+        "Easy Mission",
+        "Mini Game",
+        "Medium Mission",
+        "Boss/Review"
+      ],
       "teach": [
-        "Learn Final Boss: Data Universe.",
+        "Learn Final Boss.",
         "This level trains Interpreting & Discussing Results.",
-        "Use the rule carefully before choosing an answer."
+        "You will see this skill several times in different forms to build memory."
       ],
       "worked": [
         [
-          "Example for Final Boss: Data Universe",
+          "Example for Final Boss",
           "Read the question, identify the rule, then calculate step by step."
         ],
         [
-          "Check",
-          "Compare your result with the choices."
+          "Review pattern",
+          "The game repeats this idea in practice, mini game, and boss form."
         ]
       ]
     }
@@ -208,17 +280,6 @@
       ],
       "answer": "correct",
       "thai": "เลือกคำตอบที่ถูกต้อง"
-    },
-    {
-      "text": "Interpreting & Discussing Results: true or false starter",
-      "options": [
-        "true",
-        "false",
-        "A",
-        "B"
-      ],
-      "answer": "true",
-      "thai": "โจทย์จริงหรือเท็จ"
     }
   ]
 }
