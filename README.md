@@ -37,3 +37,11 @@ Class Code ทดสอบ: YEAR8A
 วิธีใช้งาน:
 1. นักเรียนเลือก Role = Student → จะเห็นเฉพาะ Enter World Map / Dashboard
 2. ครูเลือก Role = Teacher → จะเห็น Run QA และ Teacher Dashboard
+
+
+## v3.2.2 Teacher QA Fix
+
+แก้ไข:
+- ไม่ให้แสดงข้อความ `${qaHomeButton()}`
+- Role = Teacher จะแสดงปุ่ม Run QA
+- Role = Student จะไม่แสดงปุ่ม Run QA
