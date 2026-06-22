@@ -1,1 +1,12 @@
-export const r=(a,b)=>Math.floor(Math.random()*(b-a+1))+a;export function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}export const sample=(a,n)=>shuffle(a).slice(0,n);export const esc=s=>String(s).replace(/\\/g,'\\\\').replace(/'/g,'&#39;');export const unesc=s=>String(s).replace(/&#39;/g,"'");export function norm(v){let s=String(v).replace(/,/g,'').trim();let n=/^[-+]?\d+(\.\d+)?$/.test(s)?Number(s):NaN;return !Number.isNaN(n)?'num:'+String(Number(n.toFixed(10))):'txt:'+String(v).trim().toLowerCase().replace(/\s+/g,' ')}export const same=(a,b)=>norm(a)===norm(b);export function opts(options,answer){let out=[],seen=new Set();function add(v){let k=norm(v);if(!seen.has(k)){seen.add(k);out.push(String(v))}}Array.isArray(answer)?answer.forEach(add):add(answer);(options||[]).forEach(add);let fb=['A','B','C','D','equal','true','false'];let i=0;while(out.length<4)add(fb[i++%fb.length]);return shuffle(out).slice(0,4)}export function calcStars(c,t){return c/t>=.9?3:c/t>=.75?2:c/t>=.6?1:0}export function difficultyFromAccuracy(c,t){let a=t?c/t:0;return a>.85?'hard':a<.55?'easy':'medium'}
+export const r=(a,b)=>Math.floor(Math.random()*(b-a+1))+a;
+export function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+export const sample=(a,n)=>shuffle(a).slice(0,n);
+export const esc=s=>String(s??'').replace(/\\/g,'\\\\').replace(/'/g,'&#39;').replace(/"/g,'&quot;');
+export const unesc=s=>String(s??'').replace(/&#39;/g,"'").replace(/&quot;/g,'"');
+export function norm(v){let s=String(v).replace(/,/g,'').trim();let n=/^[-+]?\d+(\.\d+)?$/.test(s)?Number(s):NaN;return !Number.isNaN(n)?'num:'+String(Number(n.toFixed(10))):'txt:'+String(v).trim().toLowerCase().replace(/\s+/g,' ')}
+export const same=(a,b)=>norm(a)===norm(b);
+export function opts(options,answer){let out=[],seen=new Set();function add(v){let k=norm(v);if(!seen.has(k)){seen.add(k);out.push(String(v))}}Array.isArray(answer)?answer.forEach(add):add(answer);(options||[]).forEach(add);let fb=['A','B','C','D','equal','true','false'];let i=0;while(out.length<4)add(fb[i++%fb.length]);return shuffle(out).slice(0,4)}
+export function calcStars(c,t){return c/t>=.9?3:c/t>=.75?2:c/t>=.6?1:0}
+export function difficultyFromAccuracy(c,t){let a=t?c/t:0;return a>.85?'hard':a<.55?'easy':'medium'}
+export function uid(){return 'q_'+Date.now().toString(36)+'_'+Math.random().toString(36).slice(2,8)}
+export function downloadText(filename,text){const blob=new Blob([text],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=filename;a.click();URL.revokeObjectURL(a.href)}

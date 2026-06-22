@@ -1,0 +1,3 @@
+world_slug,topic,question_en,question_th,choice_a,choice_b,choice_c,choice_d,answer,explanation_en,explanation_th,difficulty
+world-1-integers,Addition,What is -5 + 9?,ลบห้าบวกเก้าได้เท่าไร,4,5,-4,14,4,-5 + 9 = 4,9 มากกว่า 5 จึงเหลือ 4,2
+world-4-decimals,Comparing Decimals,Which decimal is the greatest?,ทศนิยมใดมีค่ามากที่สุด,0.8,0.75,0.09,0.7,0.8,Compare tenths first.,เปรียบเทียบหลักส่วนสิบก่อน,2
