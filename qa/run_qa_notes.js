@@ -1,1 +1,0 @@
-Use in-app QA Runner with Role = Teacher.
