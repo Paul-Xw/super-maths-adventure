@@ -42,3 +42,13 @@
 1. เปิดเว็บ
 2. กด Ctrl+Shift+R หรือ Ctrl+F5
 3. ถ้ายังขึ้น v6 Performance ให้เปิด DevTools → Application → Service Workers → Unregister
+
+
+## v6.0.3 Syntax Fix
+
+แก้:
+- JavaScript SyntaxError: Unexpected identifier 'renderStory'
+- ลบ window.smaStartMission ที่ถูกแทรกผิดตำแหน่ง
+- เขียน renderStory() ใหม่ให้ clean
+- ตรวจ syntax ด้วย `node --check js/app.js`
+- เปลี่ยน cache/version query เป็น v6.0.3
