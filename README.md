@@ -26,3 +26,19 @@
 - เพิ่ม timeout 2.5–3 วินาที สำหรับ Supabase question_bank
 - ถ้า Supabase ช้า จะ fallback เป็น generated questions ทันที
 - ป้องกัน async error ตอนเริ่มด่าน
+
+
+## v6.0.2 Cache Killer Hotfix
+
+แก้:
+- Browser / Service Worker ยังโหลด SMA v6 Performance ตัวเก่า
+- เปลี่ยน cache name เป็น sma-v602-cache-1
+- unregister service worker เก่าก่อน register ใหม่
+- clear Cache Storage เก่า
+- ใส่ query string app.js?v=6.0.2 และ styles.css?v=6.0.2
+- เพิ่ม inline onclick fallback ให้ปุ่ม Start
+
+หลัง Deploy:
+1. เปิดเว็บ
+2. กด Ctrl+Shift+R หรือ Ctrl+F5
+3. ถ้ายังขึ้น v6 Performance ให้เปิด DevTools → Application → Service Workers → Unregister
