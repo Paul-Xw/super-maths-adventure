@@ -16,3 +16,13 @@
 3. Cloudflare Deploy
 4. Hard refresh: Ctrl+F5
 5. Teacher mode จะเห็น Performance Panel ด้านขวาบน
+
+
+## v6.0.1 Start Button Hotfix
+
+แก้:
+- กด Start แล้วดูเหมือนค้าง
+- เพิ่ม Loading Questions screen
+- เพิ่ม timeout 2.5–3 วินาที สำหรับ Supabase question_bank
+- ถ้า Supabase ช้า จะ fallback เป็น generated questions ทันที
+- ป้องกัน async error ตอนเริ่มด่าน
