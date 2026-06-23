@@ -1,0 +1,9 @@
+{
+  "name": "Super Maths Adventure",
+  "short_name": "SMA",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": []
+}

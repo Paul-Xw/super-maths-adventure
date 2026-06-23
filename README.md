@@ -1,23 +1,18 @@
-# Super Maths Adventure v5 CMS
+# Super Maths Adventure v6 Performance + Architecture
 
-เพิ่ม:
-- Teacher CMS
-- Question Bank
-- Add Question
-- Save Local
-- Save Online Supabase
-- Import CSV
-- Export JSON
-- QA ก่อนใช้โจทย์
-- Student ใช้โจทย์จาก Question Bank ก่อน ถ้าไม่มีจะ fallback เป็น generator
+เพิ่มจาก v5:
+- Lazy Loading: โหลดเฉพาะ World ที่เลือก
+- Cache Layer: ลด Supabase calls
+- Offline-first: Service Worker + PWA
+- Single-module app.js ลดปัญหา import/export
+- Performance Debug Panel เฉพาะ Teacher
+- Clear Cache button
+- Question Bank ยังใช้ได้เหมือนเดิม
+- Teacher CMS ยังเพิ่มโจทย์เองได้
 
 ติดตั้ง:
-1. Supabase → SQL Editor → Run `sql/sma_v5_cms_patch.sql`
-2. Upload files to GitHub
+1. Supabase → SQL Editor → Run `sql/sma_v6_performance_patch.sql`
+2. Upload files ทั้งหมดขึ้น GitHub
 3. Cloudflare Deploy
-4. เลือก Role = Teacher → Teacher CMS
-5. เพิ่มโจทย์ → Run QA → Save Online
-6. เลือก Role = Student → เล่นเกม
-
-CSV Template:
-`templates/question_import_template.csv`
+4. Hard refresh: Ctrl+F5
+5. Teacher mode จะเห็น Performance Panel ด้านขวาบน
