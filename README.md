@@ -52,3 +52,14 @@
 - เขียน renderStory() ใหม่ให้ clean
 - ตรวจ syntax ด้วย `node --check js/app.js`
 - เปลี่ยน cache/version query เป็น v6.0.3
+
+
+## v6.0.4 End Scene Guard Fix
+
+แก้:
+- Cannot read properties of undefined (reading 'answer') หลังเล่นจบฉาก
+- เพิ่ม state.isAnswering กันกดซ้ำ
+- เพิ่ม guard ถ้า state.qs[state.q] ไม่มี ให้ complete ทันที
+- ทำ complete() เป็น idempotent ป้องกันเรียกซ้ำ
+- เปลี่ยน cache/version query เป็น v6.0.4
+- ตรวจ syntax ด้วย node --check

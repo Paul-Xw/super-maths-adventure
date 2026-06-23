@@ -1,11 +1,11 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#0f172a"><title>Super Maths Adventure v6.0.3.0.2</title>
+<meta name="theme-color" content="#0f172a"><title>Super Maths Adventure v6.0.4.0.2</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./css/styles.css?v=6.0.3">
-</head><body><div class="ver">SMA v6.0.3</div>
-<div id="app" class="max-w-7xl mx-auto p-4 md:p-8"><div class="loading">Loading Super Maths Adventure v6.0.3.0.2...</div></div>
+<link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./css/styles.css?v=6.0.4">
+</head><body><div class="ver">SMA v6.0.4</div>
+<div id="app" class="max-w-7xl mx-auto p-4 md:p-8"><div class="loading">Loading Super Maths Adventure v6.0.4.0.2...</div></div>
 <script>
 window.addEventListener('error',e=>{document.getElementById('app').innerHTML='<div class="errorBox"><h1>JavaScript Error</h1><p>'+e.message+'</p><p>'+e.filename+':'+e.lineno+'</p></div>'});
 if('serviceWorker' in navigator){
@@ -17,8 +17,8 @@ if('serviceWorker' in navigator){
        const keys=await caches.keys();
        await Promise.all(keys.map(k=>caches.delete(k)));
      }
-     await navigator.serviceWorker.register('./sw.js?v=6.0.3');
+     await navigator.serviceWorker.register('./sw.js?v=6.0.4');
    }catch(e){console.warn(e)}
  });
 }
-</script><script type="module" src="./js/app.js?v=6.0.3"></script></body></html>
+</script><script type="module" src="./js/app.js?v=6.0.4"></script></body></html>
