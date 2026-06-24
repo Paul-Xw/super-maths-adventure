@@ -1,11 +1,11 @@
-// v6.0.9 force clear stale generated/cached questions
-if(!localStorage.getItem('sma_v609_force_clear_done')){
-  localStorage.setItem('sma_v609_force_clear_done','1');
+// v6.1.0 force clear stale generated/cached questions
+if(!localStorage.getItem('sma_v610_force_clear_done')){
+  localStorage.setItem('sma_v610_force_clear_done','1');
   Object.keys(localStorage).filter(k=>k.startsWith('cache_')).forEach(k=>localStorage.removeItem(k));
 }
-// v6.0.9 cache killer
-if(!localStorage.getItem('sma_v609_cache_killer_done')){
-  localStorage.setItem('sma_v609_cache_killer_done','1');
+// v6.1.0 cache killer
+if(!localStorage.getItem('sma_v610_cache_killer_done')){
+  localStorage.setItem('sma_v610_cache_killer_done','1');
   if('caches' in window){caches.keys().then(keys=>keys.forEach(k=>caches.delete(k))).catch(()=>{});}
   if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(rs=>rs.forEach(r=>r.unregister())).catch(()=>{});}
 }
@@ -124,11 +124,109 @@ let p=JSON.parse(localStorage.getItem(CONFIG.storageKey)||'{}'),state={player:p.
 let currentWorld=WORLD_LIST[0],scenes=[];
 function save(){localStorage.setItem(CONFIG.storageKey,JSON.stringify(state))}
 function badge(t,c='bg-cyan-100 text-cyan-800'){return `<span class="pill ${c}">${t}</span>`}
-function perf(){return state.role==='teacher'?`<div class="perf"><b>v6.0.9</b><br>Mode: ${metrics.mode}<br>Supabase calls: ${metrics.calls}<br>Cache hits: ${metrics.hits}<br>Cache misses: ${metrics.misses}<br>Last load: ${metrics.last}ms<br><button id="clearCache" class="mt-2 px-2 py-1 rounded bg-white text-slate-900 font-bold">Clear Cache</button></div>`:''}
-function shell(c){app.innerHTML=`<button id="soundBtn" class="sound-toggle">${audioOn?'🔊 Sound ON':'🔇 Sound OFF'}</button>${perf()}<header class="text-center text-white mb-6"><div class="inline-flex px-4 py-2 rounded-full bg-white/10 mb-3 font-bold">⚡ SMA v6.0.9 Celebration</div><h1 class="text-5xl md:text-7xl font-black">Super Maths Adventure</h1><p class="text-cyan-100">Lazy Loading • Cache Killer • Offline First • PWA • CMS</p></header>${c}`;let cc=document.getElementById('clearCache');if(cc)cc.onclick=()=>{Object.keys(localStorage).filter(k=>k.startsWith('cache_')).forEach(k=>localStorage.removeItem(k));location.reload()};let sbt=document.getElementById('soundBtn');sbt.onclick=()=>{audioOn=!audioOn;localStorage.setItem('sma_audio',audioOn?'on':'off');sbt.textContent=audioOn?'🔊 Sound ON':'🔇 Sound OFF';if(audioOn){ac().resume();playBgm(currentWorld.world)}}}
+function perf(){return state.role==='teacher'?`<div class="perf"><b>v6.1.0</b><br>Mode: ${metrics.mode}<br>Supabase calls: ${metrics.calls}<br>Cache hits: ${metrics.hits}<br>Cache misses: ${metrics.misses}<br>Last load: ${metrics.last}ms<br><button id="clearCache" class="mt-2 px-2 py-1 rounded bg-white text-slate-900 font-bold">Clear Cache</button></div>`:''}
+function shell(c){app.innerHTML=`<button id="soundBtn" class="sound-toggle">${audioOn?'🔊 Sound ON':'🔇 Sound OFF'}</button>${perf()}<header class="text-center text-white mb-6"><div class="inline-flex px-4 py-2 rounded-full bg-white/10 mb-3 font-bold">⚡ SMA v6.1.0 Score Dashboard</div><h1 class="text-5xl md:text-7xl font-black">Super Maths Adventure</h1><p class="text-cyan-100">Lazy Loading • Cache Killer • Offline First • PWA • CMS</p></header>${c}`;let cc=document.getElementById('clearCache');if(cc)cc.onclick=()=>{Object.keys(localStorage).filter(k=>k.startsWith('cache_')).forEach(k=>localStorage.removeItem(k));location.reload()};let sbt=document.getElementById('soundBtn');sbt.onclick=()=>{audioOn=!audioOn;localStorage.setItem('sma_audio',audioOn?'on':'off');sbt.textContent=audioOn?'🔊 Sound ON':'🔇 Sound OFF';if(audioOn){ac().resume();playBgm(currentWorld.world)}}}
 function pop(txt){let e=document.createElement('div');e.className='fx-pop';e.textContent=txt;e.style.left=innerWidth/2+'px';e.style.top=innerHeight/2+'px';document.body.appendChild(e);setTimeout(()=>e.remove(),900)}
 function toast(txt){let e=document.createElement('div');e.className='toast';e.textContent=txt;document.body.appendChild(e);setTimeout(()=>e.remove(),2800)}
-function renderStart(){metrics.mode='home';shell(`<main class="glass rounded-[2rem] p-6 md:p-10 max-w-6xl mx-auto"><div class="grid md:grid-cols-2 gap-8 items-center"><section><div class="text-8xl mb-3">⚡🧑‍🏫</div><h2 class="text-4xl font-black">Super Maths Adventure v6.0.9.0.2</h2><div class="mt-3">${badge(sb?'Supabase Ready':'Local Mode','bg-green-100 text-green-800')} ${badge('PWA Ready','bg-purple-100 text-purple-800')}</div><p class="text-slate-600 mt-4 text-lg">เร็วขึ้นด้วย Lazy Loading + Cache + Offline-first</p><div class="grid md:grid-cols-3 gap-3 mt-5"><input id="playerName" class="px-4 py-3 rounded-2xl border font-bold" value="${state.player}"><input id="classCode" class="px-4 py-3 rounded-2xl border font-bold" value="${state.classCode}"><select id="role" class="px-4 py-3 rounded-2xl border font-bold"><option value="student" ${state.role==='student'?'selected':''}>Student</option><option value="teacher" ${state.role==='teacher'?'selected':''}>Teacher</option></select></div><div class="grid md:grid-cols-4 gap-3 mt-6"><button id="enter" class="btn px-7 py-4 rounded-2xl bg-cyan-500 text-white font-black">Enter</button><button id="cms" class="btn px-7 py-4 rounded-2xl bg-amber-400 font-black">Teacher CMS</button><button id="dash" class="btn px-7 py-4 rounded-2xl bg-slate-900 text-white font-black">Dashboard</button></div></section><section class="dark rounded-[2rem] p-6"><h3 class="text-2xl font-black">Architecture v6</h3><div class="grid gap-3 mt-4"><div class="p-4 rounded-xl bg-white/10">Lazy Load: โหลดเฉพาะ World ที่เล่น</div><div class="p-4 rounded-xl bg-white/10">Cache: ลด Supabase calls</div><div class="p-4 rounded-xl bg-white/10">PWA: ใช้ Service Worker</div><div class="p-4 rounded-xl bg-white/10">Local Questions: ${localQs().length}</div></div></section></div></main>`);document.getElementById('enter').onclick=()=>{state.player=document.getElementById('playerName').value;state.classCode=document.getElementById('classCode').value;state.role=document.getElementById('role').value;save();renderWorldMap()};document.getElementById('cms').onclick=renderCMS;document.getElementById('dash').onclick=renderDash}
+
+function pendingScores(){try{return JSON.parse(localStorage.getItem('sma_pending_scores')||'[]')}catch{return[]}}
+function setPendingScores(a){localStorage.setItem('sma_pending_scores',JSON.stringify(a))}
+function localScoreHistory(){try{return JSON.parse(localStorage.getItem('sma_score_history')||'[]')}catch{return[]}}
+function addLocalScoreHistory(o){let a=localScoreHistory();a.unshift(o);localStorage.setItem('sma_score_history',JSON.stringify(a.slice(0,300)))}
+async function getGameId(slug){
+  if(!sb)return null;
+  try{
+    metrics.calls++;
+    const {data}=await sb.from('games').select('id').eq('game_slug',slug).maybeSingle();
+    return data?.id||null;
+  }catch(e){console.warn('getGameId failed',e);return null}
+}
+async function ensureStudentOnline(name,code){
+  if(!sb)return {student:null,klass:null};
+  try{
+    metrics.calls++;
+    let {data:klass}=await sb.from('classes').select('id,class_code,class_name').eq('class_code',String(code).toUpperCase()).maybeSingle();
+    if(!klass){
+      metrics.calls++;
+      const created=await sb.from('classes').insert({class_code:String(code).toUpperCase(),class_name:String(code).toUpperCase()}).select('id,class_code,class_name').single();
+      klass=created.data;
+    }
+    metrics.calls++;
+    let {data:found}=await sb.from('students').select('id,student_name,year_group').eq('student_name',name).eq('year_group','Year 8').limit(1);
+    let student=found&&found.length?found[0]:null;
+    if(!student){
+      metrics.calls++;
+      const created=await sb.from('students').insert({student_name:name,nickname:name,year_group:'Year 8'}).select('id,student_name,year_group').single();
+      student=created.data;
+    }
+    if(student?.id&&klass?.id){
+      metrics.calls++;
+      await sb.from('class_students').upsert({class_id:klass.id,student_id:student.id},{onConflict:'class_id,student_id'});
+    }
+    return {student,klass};
+  }catch(e){console.warn('ensureStudentOnline failed',e);return {student:null,klass:null}}
+}
+async function saveScoreOnline(scoreObj){
+  if(!sb)return {ok:false,reason:'offline'};
+  try{
+    const gameId=await getGameId(scoreObj.gameSlug);
+    const {student}=await ensureStudentOnline(scoreObj.playerName,scoreObj.classCode);
+    metrics.calls++;
+    const payload={
+      student_id:student?.id||null,
+      player_name:scoreObj.playerName,
+      game_id:gameId,
+      score:scoreObj.score,
+      correct:scoreObj.correct,
+      total:scoreObj.total,
+      stars:scoreObj.stars,
+      xp:scoreObj.xp,
+      coins:scoreObj.coins
+    };
+    const {error}=await sb.from('scores').insert(payload);
+    if(error)throw error;
+    return {ok:true};
+  }catch(e){
+    console.warn('saveScoreOnline failed',e);
+    return {ok:false,reason:e.message};
+  }
+}
+async function saveScoreSmart(scoreObj){
+  const full={...scoreObj,created_at:new Date().toISOString(),version:VERSION};
+  addLocalScoreHistory(full);
+  const res=await withTimeout(saveScoreOnline(full),1800);
+  if(!res||!res.ok){
+    const p=pendingScores();
+    p.unshift(full);
+    setPendingScores(p.slice(0,100));
+    toast('Score saved offline. Sync later.');
+    return {ok:false};
+  }
+  toast('Score saved to Dashboard.');
+  return {ok:true};
+}
+async function syncPendingScores(){
+  const p=pendingScores();
+  if(!p.length){toast('No pending scores');return}
+  let remain=[],okCount=0;
+  for(const s of p){
+    const res=await withTimeout(saveScoreOnline(s),1800);
+    if(res&&res.ok)okCount++; else remain.push(s);
+  }
+  setPendingScores(remain);
+  toast(`Synced ${okCount} score(s). Pending ${remain.length}`);
+  renderDash();
+}
+function scoreSummary(){
+  const hist=localScoreHistory();
+  const totalScore=hist.reduce((a,b)=>a+(Number(b.score)||0),0);
+  const totalCoins=hist.reduce((a,b)=>a+(Number(b.coins)||0),0);
+  const plays=hist.length;
+  const best=hist.reduce((m,b)=>Math.max(m,Number(b.score)||0),0);
+  return {hist,totalScore,totalCoins,plays,best,pending:pendingScores().length};
+}
+
+function renderStart(){metrics.mode='home';shell(`<main class="glass rounded-[2rem] p-6 md:p-10 max-w-6xl mx-auto"><div class="grid md:grid-cols-2 gap-8 items-center"><section><div class="text-8xl mb-3">⚡🧑‍🏫</div><h2 class="text-4xl font-black">Super Maths Adventure v6.1.0.0.2</h2><div class="mt-3">${badge(sb?'Supabase Ready':'Local Mode','bg-green-100 text-green-800')} ${badge('PWA Ready','bg-purple-100 text-purple-800')}</div><p class="text-slate-600 mt-4 text-lg">เร็วขึ้นด้วย Lazy Loading + Cache + Offline-first</p><div class="grid md:grid-cols-3 gap-3 mt-5"><input id="playerName" class="px-4 py-3 rounded-2xl border font-bold" value="${state.player}"><input id="classCode" class="px-4 py-3 rounded-2xl border font-bold" value="${state.classCode}"><select id="role" class="px-4 py-3 rounded-2xl border font-bold"><option value="student" ${state.role==='student'?'selected':''}>Student</option><option value="teacher" ${state.role==='teacher'?'selected':''}>Teacher</option></select></div><div class="grid md:grid-cols-4 gap-3 mt-6"><button id="enter" class="btn px-7 py-4 rounded-2xl bg-cyan-500 text-white font-black">Enter</button><button id="cms" class="btn px-7 py-4 rounded-2xl bg-amber-400 font-black">Teacher CMS</button><button id="dash" class="btn px-7 py-4 rounded-2xl bg-slate-900 text-white font-black">Dashboard</button></div></section><section class="dark rounded-[2rem] p-6"><h3 class="text-2xl font-black">Architecture v6</h3><div class="grid gap-3 mt-4"><div class="p-4 rounded-xl bg-white/10">Lazy Load: โหลดเฉพาะ World ที่เล่น</div><div class="p-4 rounded-xl bg-white/10">Cache: ลด Supabase calls</div><div class="p-4 rounded-xl bg-white/10">PWA: ใช้ Service Worker</div><div class="p-4 rounded-xl bg-white/10">Local Questions: ${localQs().length}</div></div></section></div></main>`);document.getElementById('enter').onclick=()=>{state.player=document.getElementById('playerName').value;state.classCode=document.getElementById('classCode').value;state.role=document.getElementById('role').value;save();renderWorldMap()};document.getElementById('cms').onclick=renderCMS;document.getElementById('dash').onclick=renderDash}
 function renderWorldMap(){metrics.mode='world-map';playBgm(currentWorld.world);shell(`<main class="glass rounded-[2rem] p-6"><div class="flex justify-between flex-wrap gap-3 mb-6"><div><h2 class="text-3xl font-black">🌍 World Map</h2><p>${state.player} • ${state.classCode}</p></div><div>${badge('🪙 '+state.coins,'bg-yellow-100 text-yellow-800')}</div></div><div class="grid md:grid-cols-4 gap-5">${WORLD_LIST.map((w,i)=>`<div class="world-card card bg-gradient-to-br ${w.color} text-white"><div class="world-badge">${badge(w.strand,'bg-white/80 text-slate-900')}</div><div class="text-6xl">${w.icon}</div><div class="mt-3 text-sm font-black opacity-80">WORLD ${w.world}</div><h3 class="text-2xl font-black">${w.name}</h3><p>${w.topic}</p><div class="mt-3 path-line"></div><button class="worldBtn btn mt-5 w-full py-3 rounded-2xl bg-white text-slate-900 font-black" data-i="${i}">Enter World</button></div>`).join('')}</div><button id="home" class="btn mt-6 px-5 py-3 rounded-2xl bg-slate-200 font-black">Home</button></main>`);document.querySelectorAll('.worldBtn').forEach(b=>b.onclick=()=>loadWorld(WORLD_LIST[+b.dataset.i]));document.getElementById('home').onclick=renderStart}
 function buildScenes(w){return Array.from({length:8},(_,i)=>({id:i===7?'boss':'s'+(i+1),name:['Core Skill','Practice Zone','Mini Challenge','Mixed Problems','Review Gate','Speed Mission','Project Quest','Boss Battle'][i],icon:w.icon,enemy:w.enemy,topic:w.topic}))}
 function loadWorld(w){metrics.mode='lazy-load-world-'+w.world;currentWorld=w;playBgm(w.world);scenes=buildScenes(w);renderWorldScenes()}
@@ -157,7 +255,7 @@ function renderStory(){
   if(go)go.onclick=()=>startMission('easy');
 }
 async function startMission(mode){
-  console.log('SMA v6.0.9 startMission',mode,currentWorld.slug);
+  console.log('SMA v6.1.0 startMission',mode,currentWorld.slug);
   metrics.mode='questions-'+currentWorld.world;
   state.phase=mode;
   state.q=0;
@@ -251,6 +349,22 @@ async function complete(){
   const coins=star*25+10;
   state.coins+=coins;
   save();
+  saveScoreSmart({
+    gameSlug:currentWorld.slug,
+    world:currentWorld.world,
+    worldName:currentWorld.name,
+    topic:currentWorld.topic,
+    phase:state.phase,
+    sceneIndex:state.idx,
+    playerName:state.player,
+    classCode:state.classCode,
+    score:state.score,
+    correct:state.correct,
+    total,
+    stars:star,
+    xp:state.score,
+    coins
+  });
   toast('🏆 Level Complete! Coins +'+coins);
   shell(`<main class="glass rounded-[2rem] p-8 max-w-2xl mx-auto text-center">
     <div class="text-8xl">🏆</div>
@@ -271,5 +385,35 @@ async function complete(){
 function qa(rows){let issues=[];rows.forEach((q,i)=>{let cs=[q.choice_a,q.choice_b,q.choice_c,q.choice_d];if(!q.question_en)issues.push('Q'+(i+1)+' missing question');if(!cs.includes(q.answer))issues.push('Q'+(i+1)+' answer not in choices');if(new Set(cs.map(norm)).size<4)issues.push('Q'+(i+1)+' duplicate choices')});return issues}
 function renderCMS(){metrics.mode='cms-lazy';let rows=localQs();shell(`<main class="glass rounded-[2rem] p-6 max-w-7xl mx-auto"><h2 class="text-4xl font-black">📝 Teacher CMS v6</h2><p>Local Questions: ${rows.length}. Online questions load only when playing a World.</p><div class="grid md:grid-cols-2 gap-6 mt-6"><section class="card"><h3 class="text-2xl font-black mb-3">Add Question</h3><div class="grid gap-3"><select id="qWorld" class="px-4 py-3 rounded-2xl border">${WORLD_LIST.map(w=>`<option value="${w.slug}">${w.world}. ${w.topic}</option>`).join('')}</select><input id="qTopic" class="px-4 py-3 rounded-2xl border" placeholder="Topic"><textarea id="qEn" class="px-4 py-3 rounded-2xl border" placeholder="Question English"></textarea><textarea id="qTh" class="px-4 py-3 rounded-2xl border" placeholder="Thai hint"></textarea><div class="grid grid-cols-2 gap-2"><input id="cA" class="px-4 py-3 rounded-2xl border" placeholder="Choice A"><input id="cB" class="px-4 py-3 rounded-2xl border" placeholder="Choice B"><input id="cC" class="px-4 py-3 rounded-2xl border" placeholder="Choice C"><input id="cD" class="px-4 py-3 rounded-2xl border" placeholder="Choice D"></div><input id="ans" class="px-4 py-3 rounded-2xl border font-bold" placeholder="Answer"><button id="saveLocal" class="btn py-3 rounded-2xl bg-slate-900 text-white font-black">Save Local</button><button id="saveOnline" class="btn py-3 rounded-2xl bg-green-500 font-black">Save Online</button></div></section><section class="card"><h3 class="text-2xl font-black mb-3">Question List</h3><button id="runQA" class="btn px-4 py-2 rounded-2xl bg-amber-100 text-amber-800 font-black mb-3">Run QA</button><table class="cms-table"><tbody>${rows.slice(0,100).map(r=>`<tr><td>${r.world_slug}</td><td>${r.question_en}</td><td><b>${r.answer}</b></td></tr>`).join('')}</tbody></table></section></div><button id="home" class="btn mt-6 px-5 py-3 rounded-2xl bg-cyan-500 text-white">Home</button></main>`);document.getElementById('home').onclick=renderStart;document.getElementById('runQA').onclick=()=>{let x=qa(localQs());alert(x.length?x.join('\\n'):'All local questions passed QA')};document.getElementById('saveLocal').onclick=()=>saveQ(false);document.getElementById('saveOnline').onclick=()=>saveQ(true)}
 async function saveQ(online){let q={world_slug:qWorld.value,topic:qTopic.value,question_en:qEn.value,question_th:qTh.value,choice_a:cA.value,choice_b:cB.value,choice_c:cC.value,choice_d:cD.value,answer:ans.value,published:true,difficulty:1};let issues=qa([q]);if(issues.length)return alert(issues.join('\\n'));if(online&&sb){metrics.calls++;let {error}=await sb.from('question_bank').insert(q);if(error){addLocalQ(q);toast('Online failed, saved Local')}else{localStorage.removeItem('cache_questions_'+q.world_slug);toast('Saved Online')}}else{addLocalQ(q);toast('Saved Local')}renderCMS()}
-async function renderDash(){shell(`<main class="glass rounded-[2rem] p-6 max-w-5xl mx-auto"><h2 class="text-4xl font-black">Dashboard</h2><div class="grid md:grid-cols-4 gap-4 mt-6"><div class="card">Coins<br><b class="text-4xl">${state.coins}</b></div><div class="card">Cache hits<br><b class="text-4xl">${metrics.hits}</b></div><div class="card">Supabase calls<br><b class="text-4xl">${metrics.calls}</b></div><div class="card">Last load<br><b class="text-4xl">${metrics.last}ms</b></div></div><button id="home" class="btn mt-6 px-5 py-3 rounded-2xl bg-cyan-500 text-white">Home</button></main>`);document.getElementById('home').onclick=renderStart}
+async function renderDash(){
+  const s=scoreSummary();
+  shell(`<main class="glass rounded-[2rem] p-6 max-w-6xl mx-auto">
+    <h2 class="text-4xl font-black">📊 Score Dashboard</h2>
+    <p class="text-slate-600">คะแนนสะสมของ ${state.player} • ${state.classCode}</p>
+    <div class="grid md:grid-cols-5 gap-4 mt-6">
+      <div class="card">Plays<br><b class="text-4xl">${s.plays}</b></div>
+      <div class="card">Total Score<br><b class="text-4xl">${s.totalScore}</b></div>
+      <div class="card">Best Score<br><b class="text-4xl">${s.best}</b></div>
+      <div class="card">Coins Earned<br><b class="text-4xl">${s.totalCoins}</b></div>
+      <div class="card">Pending Sync<br><b class="text-4xl">${s.pending}</b></div>
+    </div>
+    <div class="grid md:grid-cols-3 gap-3 mt-5">
+      <button id="syncScores" class="btn py-3 rounded-2xl bg-green-500 font-black">Sync Pending Scores</button>
+      <button id="clearLocalScores" class="btn py-3 rounded-2xl bg-rose-100 text-rose-800 font-black">Clear Local History</button>
+      <button id="home" class="btn py-3 rounded-2xl bg-cyan-500 text-white font-black">Home</button>
+    </div>
+    <section class="card mt-6 overflow-auto">
+      <h3 class="text-2xl font-black mb-3">Recent Scores</h3>
+      <table class="cms-table">
+        <thead><tr><th>Date</th><th>World</th><th>Topic</th><th>Score</th><th>Correct</th><th>Coins</th></tr></thead>
+        <tbody>
+          ${s.hist.slice(0,40).map(r=>`<tr><td>${new Date(r.created_at).toLocaleString()}</td><td>${r.worldName||r.gameSlug}</td><td>${r.topic||''}</td><td><b>${r.score}</b></td><td>${r.correct}/${r.total}</td><td>🪙 ${r.coins}</td></tr>`).join('')||'<tr><td colspan="6">No scores yet.</td></tr>'}
+        </tbody>
+      </table>
+    </section>
+  </main>`);
+  document.getElementById('home').onclick=renderStart;
+  document.getElementById('syncScores').onclick=syncPendingScores;
+  document.getElementById('clearLocalScores').onclick=()=>{if(confirm('Clear local score history?')){localStorage.removeItem('sma_score_history');renderDash()}};
+}
 renderStart();

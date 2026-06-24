@@ -91,3 +91,11 @@
 - ข้อสุดท้ายแสดงนานขึ้นก่อน Level Complete
 - เพิ่ม glow/card animation ให้เด็กเห็นว่าตอบถูก
 - เพิ่มข้อความ Correct! Great job! +10
+
+## v6.1.0 Score Dashboard
+- จบด่านแล้วบันทึกคะแนนลง local history ทันที
+- พยายามบันทึกลง Supabase table `scores`
+- ถ้า offline/Supabase ช้า จะเก็บใน `sma_pending_scores`
+- Dashboard แสดง Plays, Total Score, Best Score, Coins, Pending Sync
+- มีปุ่ม Sync Pending Scores
+- SQL เสริม: `sql/sma_v61_score_dashboard_patch.sql`
