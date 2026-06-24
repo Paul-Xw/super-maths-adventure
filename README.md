@@ -63,3 +63,8 @@
 - ทำ complete() เป็น idempotent ป้องกันเรียกซ้ำ
 - เปลี่ยน cache/version query เป็น v6.0.4
 - ตรวจ syntax ด้วย node --check
+
+
+## v6.0.5 Topic Question Bank + End Fix
+- Fix Q10/10 stuck after boss.
+- Generated questions now match each world topic: algebra, decimals, angles, data, fractions, shapes, percentage, graphs, ratio, probability, transformations, measurement/area/volume.

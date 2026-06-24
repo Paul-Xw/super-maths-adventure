@@ -1,6 +1,6 @@
-// v6.0.4 cache killer
-if(!localStorage.getItem('sma_v604_cache_killer_done')){
-  localStorage.setItem('sma_v604_cache_killer_done','1');
+// v6.0.5 cache killer
+if(!localStorage.getItem('sma_v605_cache_killer_done')){
+  localStorage.setItem('sma_v605_cache_killer_done','1');
   if('caches' in window){caches.keys().then(keys=>keys.forEach(k=>caches.delete(k))).catch(()=>{});}
   if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(rs=>rs.forEach(r=>r.unregister())).catch(()=>{});}
 }
@@ -57,7 +57,48 @@ async function fetchQuestions(slug){
   if(!result){metrics.mode='fallback-generator';return null}
   return result;
 }
-function generated(slug,topic,d='medium'){let r=(a,b)=>Math.floor(Math.random()*(b-a+1))+a,b=[];function q(text,options,answer,thai=''){b.push({text,options:opts(options,answer),answer,thai})}for(let i=0;i<50;i++){if(slug.includes('algebra')){let x=r(1,12),a=r(2,9),c=r(1,20),ans=a*x+c;q(`If x=${x}, what is ${a}x + ${c}?`,[ans,ans+1,ans-1,a+c],ans,'แทนค่าในนิพจน์')}else if(slug.includes('decimal')){let a=(r(1,99)/10).toFixed(1),c=(r(1,99)/10).toFixed(1),ans=(Number(a)+Number(c)).toFixed(1);q(`${a} + ${c} = ?`,[ans,(+ans+.1).toFixed(1),(+ans-.1).toFixed(1),+ans+1],ans,'บวกทศนิยม')}else if(slug.includes('probability')){let red=r(1,5),blue=r(1,5),total=red+blue;q(`A bag has ${red} red and ${blue} blue balls. P(red)=?`,[`${red}/${total}`,`${blue}/${total}`,`${total}/${red}`,`${red}/${blue}`],`${red}/${total}`,'หาความน่าจะเป็น')}else{let a=r(-20,20),c=r(-20,20),ans=a+c;q(`${a} + ${c} = ?`,[ans,ans+1,ans-1,-ans],ans,'คำนวณจำนวนเต็ม')}}return b}
+function generated(slug,topic,d='medium'){
+  let rand=(a,b)=>Math.floor(Math.random()*(b-a+1))+a, out=[];
+  function add(text,choices,answer,thai=''){out.push({text,options:opts(choices,answer),answer:String(answer),thai})}
+  function dec(x){return Number(x).toFixed(1)}
+  for(let i=0;i<60;i++){
+    if(slug.includes('integer')){
+      let x=rand(-20,20),y=rand(-20,20),op=['+','-','×'][rand(0,2)],ans=op==='+'?x+y:op==='-'?x-y:x*y;
+      add(`${x} ${op} ${y} = ?`,[ans,ans+1,ans-1,-ans],ans,'คำนวณจำนวนเต็ม');
+    }else if(slug.includes('algebra')||slug.includes('sequence')){
+      if(i%2===0){let x=rand(1,12),a=rand(2,9),c=rand(1,20),ans=a*x+c;add(`If x=${x}, what is ${a}x + ${c}?`,[ans,ans+1,ans-1,a+c],ans,'แทนค่าในนิพจน์')}
+      else{let first=rand(2,8),diff=rand(2,6),n=rand(4,9),ans=first+(n-1)*diff;add(`Sequence: ${first}, ${first+diff}, ${first+2*diff}, ... What is term ${n}?`,[ans,ans+diff,ans-diff,first*n],ans,'ลำดับเลขคณิต')}
+    }else if(slug.includes('place-value')){
+      let n=rand(1000,99999),round=[10,100,1000][rand(0,2)],ans=Math.round(n/round)*round;add(`Round ${n} to the nearest ${round}.`,[ans,ans+round,Math.max(0,ans-round),n],ans,'ปัดเศษตามหลัก');
+    }else if(slug.includes('decimal')){
+      if(i%2===0){let x=dec(rand(1,99)/10),y=dec(rand(1,99)/10),ans=dec(+x+ +y);add(`${x} + ${y} = ?`,[ans,dec(+ans+.1),dec(+ans-.1),dec(+ans+1)],ans,'บวกทศนิยม')}
+      else{let arr=[dec(rand(1,99)/10),dec(rand(1,99)/10),dec(rand(1,99)/10),dec(rand(1,99)/10)],ans=dec(Math.max(...arr.map(Number)));add('Which decimal is the greatest?',arr,ans,'เลือกทศนิยมที่มากที่สุด')}
+    }else if(slug.includes('angles')){
+      let ang=rand(20,150),ans=180-ang;add(`Angles on a straight line: ${ang}° + x = 180°. What is x?`,[ans,ans+10,Math.max(0,ans-10),180],ans,'มุมบนเส้นตรงรวม 180°');
+    }else if(slug.includes('data')||slug.includes('statistics')){
+      let p=rand(2,20),q=rand(2,20),r=rand(2,20),ans=p+q+r;add(`A frequency table has ${p}, ${q}, and ${r}. What is the total frequency?`,[ans,ans+1,ans-1,p+q],ans,'หาความถี่รวม');
+    }else if(slug.includes('fraction')){
+      let den=[2,3,4,5,6,8,10][rand(0,6)],num=rand(1,den-1),whole=den*rand(2,12),ans=(whole/den)*num;add(`What is ${num}/${den} of ${whole}?`,[ans,ans+1,Math.max(0,ans-1),whole],ans,'หาเศษส่วนของจำนวน');
+    }else if(slug.includes('shapes')){
+      let sides=rand(3,10);add(`A polygon has ${sides} sides. How many vertices does it have?`,[sides,sides+1,sides-1,sides*2],sides,'จำนวนจุดยอดของรูปหลายเหลี่ยม');
+    }else if(slug.includes('percentages')){
+      let pc=[10,20,25,50][rand(0,3)],n=[40,60,80,100,200][rand(0,4)],ans=n*pc/100;add(`${pc}% of ${n} = ?`,[ans,ans+5,Math.max(0,ans-5),n],ans,'หาร้อยละของจำนวน');
+    }else if(slug.includes('graphs')){
+      let x=rand(1,8),m=rand(1,5),c=rand(0,6),ans=m*x+c;add(`For y = ${m}x + ${c}, find y when x = ${x}.`,[ans,ans+1,ans-1,m+c],ans,'แทนค่า x ในสมการเส้นตรง');
+    }else if(slug.includes('ratio')){
+      let a=rand(2,9),k=rand(2,8);add(`Simplify the ratio ${a*k}:${a*2*k}.`,['1:2','2:1',`${a}:${a*2}`,`${k}:2`],'1:2','ย่ออัตราส่วน');
+    }else if(slug.includes('probability')){
+      let red=rand(1,6),blue=rand(1,6),total=red+blue,ans=`${red}/${total}`;add(`A bag has ${red} red balls and ${blue} blue balls. What is P(red)?`,[ans,`${blue}/${total}`,`${total}/${red}`,`${red}/${blue}`],ans,'ความน่าจะเป็น');
+    }else if(slug.includes('transformations')){
+      let x=rand(-5,5),y=rand(-5,5),dx=rand(1,5),dy=rand(1,5),ans=`(${x+dx}, ${y+dy})`;add(`Translate (${x}, ${y}) by vector (${dx}, ${dy}).`,[ans,`(${x-dx}, ${y-dy})`,`(${x+dy}, ${y+dx})`,`(${dx}, ${dy})`],ans,'การเลื่อนจุด');
+    }else if(slug.includes('measurement')){
+      if(i%3===0){let l=rand(3,20),w=rand(3,20),ans=l*w;add(`A rectangle is ${l} cm by ${w} cm. What is its area?`,[ans,2*(l+w),ans+1,Math.abs(l-w)],ans,'พื้นที่ = ยาว × กว้าง')}
+      else if(i%3===1){let l=rand(2,10),w=rand(2,10),h=rand(2,10),ans=l*w*h;add(`A cuboid is ${l} cm × ${w} cm × ${h} cm. What is its volume?`,[ans,l*w+h,l+w+h,2*(l*w+l*h+w*h)],ans,'ปริมาตร = ยาว × กว้าง × สูง')}
+      else{let km=rand(2,20),ans=km*1000;add(`${km} km = ? metres`,[ans,km*100,km*10,km+1000],ans,'1 km = 1000 m')}
+    }else{let x=rand(1,20),y=rand(1,20),ans=x+y;add(`${x} + ${y} = ?`,[ans,ans+1,ans-1,ans+2],ans,'คำนวณพื้นฐาน')}
+  }
+  return out;
+}
 async function getBank(slug,topic){
   let rows=null;
   try{rows=await fetchQuestions(slug)}catch(e){console.warn('fetchQuestions failed',e);rows=null}
@@ -69,11 +110,11 @@ let p=JSON.parse(localStorage.getItem(CONFIG.storageKey)||'{}'),state={player:p.
 let currentWorld=WORLD_LIST[0],scenes=[];
 function save(){localStorage.setItem(CONFIG.storageKey,JSON.stringify(state))}
 function badge(t,c='bg-cyan-100 text-cyan-800'){return `<span class="pill ${c}">${t}</span>`}
-function perf(){return state.role==='teacher'?`<div class="perf"><b>v6.0.4</b><br>Mode: ${metrics.mode}<br>Supabase calls: ${metrics.calls}<br>Cache hits: ${metrics.hits}<br>Cache misses: ${metrics.misses}<br>Last load: ${metrics.last}ms<br><button id="clearCache" class="mt-2 px-2 py-1 rounded bg-white text-slate-900 font-bold">Clear Cache</button></div>`:''}
-function shell(c){app.innerHTML=`<button id="soundBtn" class="sound-toggle">${audioOn?'🔊 Sound ON':'🔇 Sound OFF'}</button>${perf()}<header class="text-center text-white mb-6"><div class="inline-flex px-4 py-2 rounded-full bg-white/10 mb-3 font-bold">⚡ SMA v6.0.4 End Guard</div><h1 class="text-5xl md:text-7xl font-black">Super Maths Adventure</h1><p class="text-cyan-100">Lazy Loading • Cache Killer • Offline First • PWA • CMS</p></header>${c}`;let cc=document.getElementById('clearCache');if(cc)cc.onclick=()=>{Object.keys(localStorage).filter(k=>k.startsWith('cache_')).forEach(k=>localStorage.removeItem(k));location.reload()};let sbt=document.getElementById('soundBtn');sbt.onclick=()=>{audioOn=!audioOn;localStorage.setItem('sma_audio',audioOn?'on':'off');sbt.textContent=audioOn?'🔊 Sound ON':'🔇 Sound OFF';if(audioOn){ac().resume();playBgm(currentWorld.world)}}}
+function perf(){return state.role==='teacher'?`<div class="perf"><b>v6.0.5</b><br>Mode: ${metrics.mode}<br>Supabase calls: ${metrics.calls}<br>Cache hits: ${metrics.hits}<br>Cache misses: ${metrics.misses}<br>Last load: ${metrics.last}ms<br><button id="clearCache" class="mt-2 px-2 py-1 rounded bg-white text-slate-900 font-bold">Clear Cache</button></div>`:''}
+function shell(c){app.innerHTML=`<button id="soundBtn" class="sound-toggle">${audioOn?'🔊 Sound ON':'🔇 Sound OFF'}</button>${perf()}<header class="text-center text-white mb-6"><div class="inline-flex px-4 py-2 rounded-full bg-white/10 mb-3 font-bold">⚡ SMA v6.0.5 Topic Bank</div><h1 class="text-5xl md:text-7xl font-black">Super Maths Adventure</h1><p class="text-cyan-100">Lazy Loading • Cache Killer • Offline First • PWA • CMS</p></header>${c}`;let cc=document.getElementById('clearCache');if(cc)cc.onclick=()=>{Object.keys(localStorage).filter(k=>k.startsWith('cache_')).forEach(k=>localStorage.removeItem(k));location.reload()};let sbt=document.getElementById('soundBtn');sbt.onclick=()=>{audioOn=!audioOn;localStorage.setItem('sma_audio',audioOn?'on':'off');sbt.textContent=audioOn?'🔊 Sound ON':'🔇 Sound OFF';if(audioOn){ac().resume();playBgm(currentWorld.world)}}}
 function pop(txt){let e=document.createElement('div');e.className='fx-pop';e.textContent=txt;e.style.left=innerWidth/2+'px';e.style.top=innerHeight/2+'px';document.body.appendChild(e);setTimeout(()=>e.remove(),900)}
 function toast(txt){let e=document.createElement('div');e.className='toast';e.textContent=txt;document.body.appendChild(e);setTimeout(()=>e.remove(),2800)}
-function renderStart(){metrics.mode='home';shell(`<main class="glass rounded-[2rem] p-6 md:p-10 max-w-6xl mx-auto"><div class="grid md:grid-cols-2 gap-8 items-center"><section><div class="text-8xl mb-3">⚡🧑‍🏫</div><h2 class="text-4xl font-black">Super Maths Adventure v6.0.4.0.2</h2><div class="mt-3">${badge(sb?'Supabase Ready':'Local Mode','bg-green-100 text-green-800')} ${badge('PWA Ready','bg-purple-100 text-purple-800')}</div><p class="text-slate-600 mt-4 text-lg">เร็วขึ้นด้วย Lazy Loading + Cache + Offline-first</p><div class="grid md:grid-cols-3 gap-3 mt-5"><input id="playerName" class="px-4 py-3 rounded-2xl border font-bold" value="${state.player}"><input id="classCode" class="px-4 py-3 rounded-2xl border font-bold" value="${state.classCode}"><select id="role" class="px-4 py-3 rounded-2xl border font-bold"><option value="student" ${state.role==='student'?'selected':''}>Student</option><option value="teacher" ${state.role==='teacher'?'selected':''}>Teacher</option></select></div><div class="grid md:grid-cols-4 gap-3 mt-6"><button id="enter" class="btn px-7 py-4 rounded-2xl bg-cyan-500 text-white font-black">Enter</button><button id="cms" class="btn px-7 py-4 rounded-2xl bg-amber-400 font-black">Teacher CMS</button><button id="dash" class="btn px-7 py-4 rounded-2xl bg-slate-900 text-white font-black">Dashboard</button></div></section><section class="dark rounded-[2rem] p-6"><h3 class="text-2xl font-black">Architecture v6</h3><div class="grid gap-3 mt-4"><div class="p-4 rounded-xl bg-white/10">Lazy Load: โหลดเฉพาะ World ที่เล่น</div><div class="p-4 rounded-xl bg-white/10">Cache: ลด Supabase calls</div><div class="p-4 rounded-xl bg-white/10">PWA: ใช้ Service Worker</div><div class="p-4 rounded-xl bg-white/10">Local Questions: ${localQs().length}</div></div></section></div></main>`);document.getElementById('enter').onclick=()=>{state.player=document.getElementById('playerName').value;state.classCode=document.getElementById('classCode').value;state.role=document.getElementById('role').value;save();renderWorldMap()};document.getElementById('cms').onclick=renderCMS;document.getElementById('dash').onclick=renderDash}
+function renderStart(){metrics.mode='home';shell(`<main class="glass rounded-[2rem] p-6 md:p-10 max-w-6xl mx-auto"><div class="grid md:grid-cols-2 gap-8 items-center"><section><div class="text-8xl mb-3">⚡🧑‍🏫</div><h2 class="text-4xl font-black">Super Maths Adventure v6.0.5.0.2</h2><div class="mt-3">${badge(sb?'Supabase Ready':'Local Mode','bg-green-100 text-green-800')} ${badge('PWA Ready','bg-purple-100 text-purple-800')}</div><p class="text-slate-600 mt-4 text-lg">เร็วขึ้นด้วย Lazy Loading + Cache + Offline-first</p><div class="grid md:grid-cols-3 gap-3 mt-5"><input id="playerName" class="px-4 py-3 rounded-2xl border font-bold" value="${state.player}"><input id="classCode" class="px-4 py-3 rounded-2xl border font-bold" value="${state.classCode}"><select id="role" class="px-4 py-3 rounded-2xl border font-bold"><option value="student" ${state.role==='student'?'selected':''}>Student</option><option value="teacher" ${state.role==='teacher'?'selected':''}>Teacher</option></select></div><div class="grid md:grid-cols-4 gap-3 mt-6"><button id="enter" class="btn px-7 py-4 rounded-2xl bg-cyan-500 text-white font-black">Enter</button><button id="cms" class="btn px-7 py-4 rounded-2xl bg-amber-400 font-black">Teacher CMS</button><button id="dash" class="btn px-7 py-4 rounded-2xl bg-slate-900 text-white font-black">Dashboard</button></div></section><section class="dark rounded-[2rem] p-6"><h3 class="text-2xl font-black">Architecture v6</h3><div class="grid gap-3 mt-4"><div class="p-4 rounded-xl bg-white/10">Lazy Load: โหลดเฉพาะ World ที่เล่น</div><div class="p-4 rounded-xl bg-white/10">Cache: ลด Supabase calls</div><div class="p-4 rounded-xl bg-white/10">PWA: ใช้ Service Worker</div><div class="p-4 rounded-xl bg-white/10">Local Questions: ${localQs().length}</div></div></section></div></main>`);document.getElementById('enter').onclick=()=>{state.player=document.getElementById('playerName').value;state.classCode=document.getElementById('classCode').value;state.role=document.getElementById('role').value;save();renderWorldMap()};document.getElementById('cms').onclick=renderCMS;document.getElementById('dash').onclick=renderDash}
 function renderWorldMap(){metrics.mode='world-map';playBgm(currentWorld.world);shell(`<main class="glass rounded-[2rem] p-6"><div class="flex justify-between flex-wrap gap-3 mb-6"><div><h2 class="text-3xl font-black">🌍 World Map</h2><p>${state.player} • ${state.classCode}</p></div><div>${badge('🪙 '+state.coins,'bg-yellow-100 text-yellow-800')}</div></div><div class="grid md:grid-cols-4 gap-5">${WORLD_LIST.map((w,i)=>`<div class="world-card card bg-gradient-to-br ${w.color} text-white"><div class="world-badge">${badge(w.strand,'bg-white/80 text-slate-900')}</div><div class="text-6xl">${w.icon}</div><div class="mt-3 text-sm font-black opacity-80">WORLD ${w.world}</div><h3 class="text-2xl font-black">${w.name}</h3><p>${w.topic}</p><div class="mt-3 path-line"></div><button class="worldBtn btn mt-5 w-full py-3 rounded-2xl bg-white text-slate-900 font-black" data-i="${i}">Enter World</button></div>`).join('')}</div><button id="home" class="btn mt-6 px-5 py-3 rounded-2xl bg-slate-200 font-black">Home</button></main>`);document.querySelectorAll('.worldBtn').forEach(b=>b.onclick=()=>loadWorld(WORLD_LIST[+b.dataset.i]));document.getElementById('home').onclick=renderStart}
 function buildScenes(w){return Array.from({length:8},(_,i)=>({id:i===7?'boss':'s'+(i+1),name:['Core Skill','Practice Zone','Mini Challenge','Mixed Problems','Review Gate','Speed Mission','Project Quest','Boss Battle'][i],icon:w.icon,enemy:w.enemy,topic:w.topic}))}
 function loadWorld(w){metrics.mode='lazy-load-world-'+w.world;currentWorld=w;playBgm(w.world);scenes=buildScenes(w);renderWorldScenes()}
@@ -102,7 +143,7 @@ function renderStory(){
   if(go)go.onclick=()=>startMission('easy');
 }
 async function startMission(mode){
-  console.log('SMA v6.0.4 startMission',mode,currentWorld.slug);
+  console.log('SMA v6.0.5 startMission',mode,currentWorld.slug);
   metrics.mode='questions-'+currentWorld.world;
   state.phase=mode;
   state.q=0;
@@ -134,13 +175,10 @@ async function startMission(mode){
 }
 function renderQuestion(msg=''){let q=state.qs&&state.qs[state.q];if(!q)return complete();let s=scenes[state.idx];shell(`<main class="glass rounded-[2rem] p-6 max-w-5xl mx-auto"><div class="flex justify-between flex-wrap"><h2 class="text-3xl font-black">${state.phase.toUpperCase()} • ${currentWorld.topic}</h2><div>${badge('Q '+(state.q+1)+'/'+state.qs.length)} ${badge('Score '+state.score,'bg-yellow-100 text-yellow-800')}</div></div><section class="rounded-[2rem] bg-white border p-5 shadow mt-5"><h3 class="text-2xl md:text-3xl font-black">${q.text}</h3><div class="grid gap-3 mt-5">${q.options.map(op=>`<button class="ans target btn p-4 rounded-2xl text-xl md:text-2xl font-black" data-a="${String(op).replaceAll('"','&quot;')}"><span class="enemy">${s.enemy}</span>${op}</button>`).join('')}</div></section><div id="fb" class="mt-4">${msg}</div><button id="hint" class="btn mt-4 px-5 py-3 rounded-2xl bg-amber-100 text-amber-800 font-black">TH Hint</button></main>`);document.querySelectorAll('.ans').forEach(b=>b.onclick=()=>answer(b.dataset.a));document.getElementById('hint').onclick=()=>document.getElementById('fb').innerHTML=`<div class="p-4 rounded-2xl bg-amber-50 font-bold">🇹🇭 ${q.thai||'อ่านโจทย์อย่างระมัดระวัง'}<br><small>ไม่มีเฉลยคำตอบ</small></div>`}
 function answer(a){
-  if(state.isAnswering)return;
+  if(state.isAnswering||state.completed)return;
   state.isAnswering=true;
   const q=state.qs&&state.qs[state.q];
-  if(!q){
-    state.isAnswering=false;
-    return complete();
-  }
+  if(!q){state.isAnswering=false;return complete();}
   sfx('laser');
   same(a,q.answer)?correct():wrong();
 }
@@ -154,9 +192,15 @@ function next(m,ok){
     state.isAnswering=false;
     if(!state.qs || state.q>=state.qs.length)return nextLoop();
     renderQuestion();
-  },ok?450:750);
+  },ok?350:650);
 }
-function nextLoop(){if(state.phase==='easy')return loopClear('Mini Game',()=>startMission('mini'));if(state.phase==='mini')return loopClear('Medium Mission',()=>startMission('medium'));if(state.phase==='medium')return loopClear('Boss Battle',()=>startMission('boss'));complete()}
+function nextLoop(){
+  state.isAnswering=false;
+  if(state.phase==='easy')return loopClear('Mini Game',()=>startMission('mini'));
+  if(state.phase==='mini')return loopClear('Medium Mission',()=>startMission('medium'));
+  if(state.phase==='medium')return loopClear('Boss Battle',()=>startMission('boss'));
+  return complete();
+}
 function loopClear(label,next){shell(`<main class="glass rounded-[2rem] p-8 max-w-xl mx-auto text-center"><div class="text-7xl">🏅</div><h2 class="text-4xl font-black">Loop Clear!</h2><p>Next: ${label}</p><button id="next" class="btn mt-7 px-8 py-4 rounded-2xl bg-cyan-500 text-white font-black">Continue</button></main>`);document.getElementById('next').onclick=next}
 async function complete(){if(state.completed)return;state.completed=true;sfx('victory');let star=calcStars(state.correct,state.qs.length),coins=star*25+10;state.coins+=coins;save();toast('🏆 Level Complete! Coins +'+coins);if(sb){metrics.calls++;await saveScore({gameSlug:currentWorld.slug,playerName:state.player,classCode:state.classCode,score:state.score,correct:state.correct,total:state.qs.length,stars:star,xp:state.score,coins})}shell(`<main class="glass rounded-[2rem] p-8 max-w-2xl mx-auto text-center"><div class="text-8xl">🏆</div><h2 class="text-5xl font-black">Level Complete!</h2><p>Earned 🪙 ${coins}</p><button id="back" class="btn mt-6 py-4 px-8 rounded-2xl bg-cyan-500 text-white font-black">World Scenes</button></main>`);document.getElementById('back').onclick=renderWorldScenes}
 function qa(rows){let issues=[];rows.forEach((q,i)=>{let cs=[q.choice_a,q.choice_b,q.choice_c,q.choice_d];if(!q.question_en)issues.push('Q'+(i+1)+' missing question');if(!cs.includes(q.answer))issues.push('Q'+(i+1)+' answer not in choices');if(new Set(cs.map(norm)).size<4)issues.push('Q'+(i+1)+' duplicate choices')});return issues}
