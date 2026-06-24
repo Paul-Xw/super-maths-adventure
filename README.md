@@ -74,3 +74,8 @@
 - Ignore integer-only questions on non-integer worlds.
 - Boss Q10/10 complete guard.
 - Use app.js?v=6.0.6.
+
+## v6.0.7 Boss Final Auto Complete
+- Fix stuck after Boss Q10/10 with Correct feedback.
+- next() detects final question before increment and calls nextLoop/complete.
+- Version query bumped to app.js?v=6.0.7.

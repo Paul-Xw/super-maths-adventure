@@ -1,11 +1,11 @@
-// v6.0.6 force clear stale generated/cached questions
-if(!localStorage.getItem('sma_v606_force_clear_done')){
-  localStorage.setItem('sma_v606_force_clear_done','1');
+// v6.0.7 force clear stale generated/cached questions
+if(!localStorage.getItem('sma_v607_force_clear_done')){
+  localStorage.setItem('sma_v607_force_clear_done','1');
   Object.keys(localStorage).filter(k=>k.startsWith('cache_')).forEach(k=>localStorage.removeItem(k));
 }
-// v6.0.6 cache killer
-if(!localStorage.getItem('sma_v606_cache_killer_done')){
-  localStorage.setItem('sma_v606_cache_killer_done','1');
+// v6.0.7 cache killer
+if(!localStorage.getItem('sma_v607_cache_killer_done')){
+  localStorage.setItem('sma_v607_cache_killer_done','1');
   if('caches' in window){caches.keys().then(keys=>keys.forEach(k=>caches.delete(k))).catch(()=>{});}
   if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(rs=>rs.forEach(r=>r.unregister())).catch(()=>{});}
 }
@@ -124,11 +124,11 @@ let p=JSON.parse(localStorage.getItem(CONFIG.storageKey)||'{}'),state={player:p.
 let currentWorld=WORLD_LIST[0],scenes=[];
 function save(){localStorage.setItem(CONFIG.storageKey,JSON.stringify(state))}
 function badge(t,c='bg-cyan-100 text-cyan-800'){return `<span class="pill ${c}">${t}</span>`}
-function perf(){return state.role==='teacher'?`<div class="perf"><b>v6.0.6</b><br>Mode: ${metrics.mode}<br>Supabase calls: ${metrics.calls}<br>Cache hits: ${metrics.hits}<br>Cache misses: ${metrics.misses}<br>Last load: ${metrics.last}ms<br><button id="clearCache" class="mt-2 px-2 py-1 rounded bg-white text-slate-900 font-bold">Clear Cache</button></div>`:''}
-function shell(c){app.innerHTML=`<button id="soundBtn" class="sound-toggle">${audioOn?'🔊 Sound ON':'🔇 Sound OFF'}</button>${perf()}<header class="text-center text-white mb-6"><div class="inline-flex px-4 py-2 rounded-full bg-white/10 mb-3 font-bold">⚡ SMA v6.0.6 Hard Topic</div><h1 class="text-5xl md:text-7xl font-black">Super Maths Adventure</h1><p class="text-cyan-100">Lazy Loading • Cache Killer • Offline First • PWA • CMS</p></header>${c}`;let cc=document.getElementById('clearCache');if(cc)cc.onclick=()=>{Object.keys(localStorage).filter(k=>k.startsWith('cache_')).forEach(k=>localStorage.removeItem(k));location.reload()};let sbt=document.getElementById('soundBtn');sbt.onclick=()=>{audioOn=!audioOn;localStorage.setItem('sma_audio',audioOn?'on':'off');sbt.textContent=audioOn?'🔊 Sound ON':'🔇 Sound OFF';if(audioOn){ac().resume();playBgm(currentWorld.world)}}}
+function perf(){return state.role==='teacher'?`<div class="perf"><b>v6.0.7</b><br>Mode: ${metrics.mode}<br>Supabase calls: ${metrics.calls}<br>Cache hits: ${metrics.hits}<br>Cache misses: ${metrics.misses}<br>Last load: ${metrics.last}ms<br><button id="clearCache" class="mt-2 px-2 py-1 rounded bg-white text-slate-900 font-bold">Clear Cache</button></div>`:''}
+function shell(c){app.innerHTML=`<button id="soundBtn" class="sound-toggle">${audioOn?'🔊 Sound ON':'🔇 Sound OFF'}</button>${perf()}<header class="text-center text-white mb-6"><div class="inline-flex px-4 py-2 rounded-full bg-white/10 mb-3 font-bold">⚡ SMA v6.0.7 Boss Complete</div><h1 class="text-5xl md:text-7xl font-black">Super Maths Adventure</h1><p class="text-cyan-100">Lazy Loading • Cache Killer • Offline First • PWA • CMS</p></header>${c}`;let cc=document.getElementById('clearCache');if(cc)cc.onclick=()=>{Object.keys(localStorage).filter(k=>k.startsWith('cache_')).forEach(k=>localStorage.removeItem(k));location.reload()};let sbt=document.getElementById('soundBtn');sbt.onclick=()=>{audioOn=!audioOn;localStorage.setItem('sma_audio',audioOn?'on':'off');sbt.textContent=audioOn?'🔊 Sound ON':'🔇 Sound OFF';if(audioOn){ac().resume();playBgm(currentWorld.world)}}}
 function pop(txt){let e=document.createElement('div');e.className='fx-pop';e.textContent=txt;e.style.left=innerWidth/2+'px';e.style.top=innerHeight/2+'px';document.body.appendChild(e);setTimeout(()=>e.remove(),900)}
 function toast(txt){let e=document.createElement('div');e.className='toast';e.textContent=txt;document.body.appendChild(e);setTimeout(()=>e.remove(),2800)}
-function renderStart(){metrics.mode='home';shell(`<main class="glass rounded-[2rem] p-6 md:p-10 max-w-6xl mx-auto"><div class="grid md:grid-cols-2 gap-8 items-center"><section><div class="text-8xl mb-3">⚡🧑‍🏫</div><h2 class="text-4xl font-black">Super Maths Adventure v6.0.6.0.2</h2><div class="mt-3">${badge(sb?'Supabase Ready':'Local Mode','bg-green-100 text-green-800')} ${badge('PWA Ready','bg-purple-100 text-purple-800')}</div><p class="text-slate-600 mt-4 text-lg">เร็วขึ้นด้วย Lazy Loading + Cache + Offline-first</p><div class="grid md:grid-cols-3 gap-3 mt-5"><input id="playerName" class="px-4 py-3 rounded-2xl border font-bold" value="${state.player}"><input id="classCode" class="px-4 py-3 rounded-2xl border font-bold" value="${state.classCode}"><select id="role" class="px-4 py-3 rounded-2xl border font-bold"><option value="student" ${state.role==='student'?'selected':''}>Student</option><option value="teacher" ${state.role==='teacher'?'selected':''}>Teacher</option></select></div><div class="grid md:grid-cols-4 gap-3 mt-6"><button id="enter" class="btn px-7 py-4 rounded-2xl bg-cyan-500 text-white font-black">Enter</button><button id="cms" class="btn px-7 py-4 rounded-2xl bg-amber-400 font-black">Teacher CMS</button><button id="dash" class="btn px-7 py-4 rounded-2xl bg-slate-900 text-white font-black">Dashboard</button></div></section><section class="dark rounded-[2rem] p-6"><h3 class="text-2xl font-black">Architecture v6</h3><div class="grid gap-3 mt-4"><div class="p-4 rounded-xl bg-white/10">Lazy Load: โหลดเฉพาะ World ที่เล่น</div><div class="p-4 rounded-xl bg-white/10">Cache: ลด Supabase calls</div><div class="p-4 rounded-xl bg-white/10">PWA: ใช้ Service Worker</div><div class="p-4 rounded-xl bg-white/10">Local Questions: ${localQs().length}</div></div></section></div></main>`);document.getElementById('enter').onclick=()=>{state.player=document.getElementById('playerName').value;state.classCode=document.getElementById('classCode').value;state.role=document.getElementById('role').value;save();renderWorldMap()};document.getElementById('cms').onclick=renderCMS;document.getElementById('dash').onclick=renderDash}
+function renderStart(){metrics.mode='home';shell(`<main class="glass rounded-[2rem] p-6 md:p-10 max-w-6xl mx-auto"><div class="grid md:grid-cols-2 gap-8 items-center"><section><div class="text-8xl mb-3">⚡🧑‍🏫</div><h2 class="text-4xl font-black">Super Maths Adventure v6.0.7.0.2</h2><div class="mt-3">${badge(sb?'Supabase Ready':'Local Mode','bg-green-100 text-green-800')} ${badge('PWA Ready','bg-purple-100 text-purple-800')}</div><p class="text-slate-600 mt-4 text-lg">เร็วขึ้นด้วย Lazy Loading + Cache + Offline-first</p><div class="grid md:grid-cols-3 gap-3 mt-5"><input id="playerName" class="px-4 py-3 rounded-2xl border font-bold" value="${state.player}"><input id="classCode" class="px-4 py-3 rounded-2xl border font-bold" value="${state.classCode}"><select id="role" class="px-4 py-3 rounded-2xl border font-bold"><option value="student" ${state.role==='student'?'selected':''}>Student</option><option value="teacher" ${state.role==='teacher'?'selected':''}>Teacher</option></select></div><div class="grid md:grid-cols-4 gap-3 mt-6"><button id="enter" class="btn px-7 py-4 rounded-2xl bg-cyan-500 text-white font-black">Enter</button><button id="cms" class="btn px-7 py-4 rounded-2xl bg-amber-400 font-black">Teacher CMS</button><button id="dash" class="btn px-7 py-4 rounded-2xl bg-slate-900 text-white font-black">Dashboard</button></div></section><section class="dark rounded-[2rem] p-6"><h3 class="text-2xl font-black">Architecture v6</h3><div class="grid gap-3 mt-4"><div class="p-4 rounded-xl bg-white/10">Lazy Load: โหลดเฉพาะ World ที่เล่น</div><div class="p-4 rounded-xl bg-white/10">Cache: ลด Supabase calls</div><div class="p-4 rounded-xl bg-white/10">PWA: ใช้ Service Worker</div><div class="p-4 rounded-xl bg-white/10">Local Questions: ${localQs().length}</div></div></section></div></main>`);document.getElementById('enter').onclick=()=>{state.player=document.getElementById('playerName').value;state.classCode=document.getElementById('classCode').value;state.role=document.getElementById('role').value;save();renderWorldMap()};document.getElementById('cms').onclick=renderCMS;document.getElementById('dash').onclick=renderDash}
 function renderWorldMap(){metrics.mode='world-map';playBgm(currentWorld.world);shell(`<main class="glass rounded-[2rem] p-6"><div class="flex justify-between flex-wrap gap-3 mb-6"><div><h2 class="text-3xl font-black">🌍 World Map</h2><p>${state.player} • ${state.classCode}</p></div><div>${badge('🪙 '+state.coins,'bg-yellow-100 text-yellow-800')}</div></div><div class="grid md:grid-cols-4 gap-5">${WORLD_LIST.map((w,i)=>`<div class="world-card card bg-gradient-to-br ${w.color} text-white"><div class="world-badge">${badge(w.strand,'bg-white/80 text-slate-900')}</div><div class="text-6xl">${w.icon}</div><div class="mt-3 text-sm font-black opacity-80">WORLD ${w.world}</div><h3 class="text-2xl font-black">${w.name}</h3><p>${w.topic}</p><div class="mt-3 path-line"></div><button class="worldBtn btn mt-5 w-full py-3 rounded-2xl bg-white text-slate-900 font-black" data-i="${i}">Enter World</button></div>`).join('')}</div><button id="home" class="btn mt-6 px-5 py-3 rounded-2xl bg-slate-200 font-black">Home</button></main>`);document.querySelectorAll('.worldBtn').forEach(b=>b.onclick=()=>loadWorld(WORLD_LIST[+b.dataset.i]));document.getElementById('home').onclick=renderStart}
 function buildScenes(w){return Array.from({length:8},(_,i)=>({id:i===7?'boss':'s'+(i+1),name:['Core Skill','Practice Zone','Mini Challenge','Mixed Problems','Review Gate','Speed Mission','Project Quest','Boss Battle'][i],icon:w.icon,enemy:w.enemy,topic:w.topic}))}
 function loadWorld(w){metrics.mode='lazy-load-world-'+w.world;currentWorld=w;playBgm(w.world);scenes=buildScenes(w);renderWorldScenes()}
@@ -157,7 +157,7 @@ function renderStory(){
   if(go)go.onclick=()=>startMission('easy');
 }
 async function startMission(mode){
-  console.log('SMA v6.0.6 startMission',mode,currentWorld.slug);
+  console.log('SMA v6.0.7 startMission',mode,currentWorld.slug);
   metrics.mode='questions-'+currentWorld.world;
   state.phase=mode;
   state.q=0;
@@ -192,7 +192,10 @@ function answer(a){
   if(state.isAnswering||state.completed)return;
   state.isAnswering=true;
   const q=state.qs&&state.qs[state.q];
-  if(!q){state.isAnswering=false;return complete();}
+  if(!q){
+    state.isAnswering=false;
+    return complete();
+  }
   sfx('laser');
   same(a,q.answer)?correct():wrong();
 }
@@ -201,15 +204,21 @@ function wrong(){sfx('wrong');next(`<div class="p-4 rounded-2xl bg-rose-100 font
 function next(m,ok){
   const fb=document.getElementById('fb');
   if(fb)fb.innerHTML=m;
+  const isLast = !state.qs || state.q >= state.qs.length - 1;
+  const delay = isLast ? 450 : (ok ? 350 : 650);
   setTimeout(()=>{
+    if(state.completed)return;
     state.q++;
     state.isAnswering=false;
-    if(!state.qs || state.q>=state.qs.length)return nextLoop();
+    if(isLast || !state.qs || state.q>=state.qs.length){
+      return nextLoop();
+    }
     renderQuestion();
-  },ok?350:650);
+  },delay);
 }
 function nextLoop(){
   state.isAnswering=false;
+  if(state.completed)return;
   if(state.phase==='easy')return loopClear('Mini Game',()=>startMission('mini'));
   if(state.phase==='mini')return loopClear('Medium Mission',()=>startMission('medium'));
   if(state.phase==='medium')return loopClear('Boss Battle',()=>startMission('boss'));
