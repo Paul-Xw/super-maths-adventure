@@ -68,3 +68,9 @@
 ## v6.0.5 Topic Question Bank + End Fix
 - Fix Q10/10 stuck after boss.
 - Generated questions now match each world topic: algebra, decimals, angles, data, fractions, shapes, percentage, graphs, ratio, probability, transformations, measurement/area/volume.
+
+## v6.0.6 Hard Reset + Topic Engine
+- Force clear old cache/local cache once.
+- Ignore integer-only questions on non-integer worlds.
+- Boss Q10/10 complete guard.
+- Use app.js?v=6.0.6.
