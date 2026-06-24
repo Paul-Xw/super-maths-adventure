@@ -1,16 +1,16 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#0f172a"><title>Super Maths Adventure v6.0.7.0.2</title>
+<meta name="theme-color" content="#0f172a"><title>Super Maths Adventure v6.0.9.0.2</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./css/styles.css?v=6.0.7">
-</head><body><div class="ver">SMA v6.0.7</div>
-<div id="app" class="max-w-7xl mx-auto p-4 md:p-8"><div class="loading">Loading Super Maths Adventure v6.0.7.0.2...</div></div>
+<link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./css/styles.css?v=6.0.9">
+</head><body><div class="ver">SMA v6.0.9</div>
+<div id="app" class="max-w-7xl mx-auto p-4 md:p-8"><div class="loading">Loading Super Maths Adventure v6.0.9.0.2...</div></div>
 <script>
 (async function(){
  try{
-   if(!localStorage.getItem('sma_v607_cache_reset_done')){
-     localStorage.setItem('sma_v607_cache_reset_done','1');
+   if(!localStorage.getItem('sma_v609_cache_reset_done')){
+     localStorage.setItem('sma_v609_cache_reset_done','1');
      if('serviceWorker' in navigator){
        const regs=await navigator.serviceWorker.getRegistrations();
        await Promise.all(regs.map(r=>r.unregister()));
@@ -34,8 +34,8 @@ if('serviceWorker' in navigator){
        const keys=await caches.keys();
        await Promise.all(keys.map(k=>caches.delete(k)));
      }
-     await navigator.serviceWorker.register('./sw.js?v=6.0.7');
+     await navigator.serviceWorker.register('./sw.js?v=6.0.9');
    }catch(e){console.warn(e)}
  });
 }
-</script><script type="module" src="./js/app.js?v=6.0.7"></script></body></html>
+</script><script type="module" src="./js/app.js?v=6.0.9"></script></body></html>

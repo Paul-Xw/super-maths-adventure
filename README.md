@@ -79,3 +79,15 @@
 - Fix stuck after Boss Q10/10 with Correct feedback.
 - next() detects final question before increment and calls nextLoop/complete.
 - Version query bumped to app.js?v=6.0.7.
+
+## v6.0.8 Complete Screen Fix
+- Fix stuck on Correct feedback after final Boss question.
+- complete() now always renders final screen once.
+- Added Play Again and World Scenes buttons.
+- Uses state.finishing separate from state.completed.
+
+## v6.0.9 Celebration Feedback
+- ตอบถูกแล้วแสดง Celebration Overlay ประมาณ 1.4 วินาที
+- ข้อสุดท้ายแสดงนานขึ้นก่อน Level Complete
+- เพิ่ม glow/card animation ให้เด็กเห็นว่าตอบถูก
+- เพิ่มข้อความ Correct! Great job! +10
