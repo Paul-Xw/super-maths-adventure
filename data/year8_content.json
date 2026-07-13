@@ -1,0 +1,515 @@
+{
+  "year": "Year 8 / Stage 8",
+  "version": "7.1.0",
+  "units": [
+    {
+      "id": "y8-integers",
+      "name": "Integers",
+      "lessons": [
+        {
+          "title": "Factors, multiples and primes",
+          "objective": "Identify factors, multiples, prime numbers and prime factorisation.",
+          "summary": "A factor divides exactly; a multiple is produced by multiplication.",
+          "example": "Prime-factorise 84: 84 = 2² × 3 × 7.",
+          "practice": "Find the HCF and LCM of 18 and 24."
+        },
+        {
+          "title": "Multiplying and dividing integers",
+          "objective": "Apply sign rules accurately.",
+          "summary": "Same signs give a positive result; different signs give a negative result.",
+          "example": "(-6) × 4 = -24; (-30) ÷ (-5) = 6.",
+          "practice": "Calculate -8 × -7 and 54 ÷ -9."
+        },
+        {
+          "title": "Square roots and cube roots",
+          "objective": "Recognise perfect squares and perfect cubes.",
+          "summary": "Square root reverses squaring; cube root reverses cubing.",
+          "example": "√144 = 12 and ∛125 = 5.",
+          "practice": "Find √225 and ∛216."
+        },
+        {
+          "title": "Indices",
+          "objective": "Use index notation and simple index laws.",
+          "summary": "When multiplying same bases, add powers.",
+          "example": "2³ × 2⁴ = 2⁷ = 128.",
+          "practice": "Simplify 5² × 5³."
+        }
+      ]
+    },
+    {
+      "id": "y8-algebra",
+      "name": "Expressions, Formulae & Equations",
+      "lessons": [
+        {
+          "title": "Constructing expressions",
+          "objective": "Translate words into algebraic expressions.",
+          "summary": "Use letters for unknown quantities and preserve operation order.",
+          "example": "Three more than twice x is 2x + 3.",
+          "practice": "Write an expression for five less than 4n."
+        },
+        {
+          "title": "Formulae",
+          "objective": "Substitute values and rearrange simple formulae.",
+          "summary": "Replace variables carefully, using brackets for negative values.",
+          "example": "If A = lw, l = 8 and w = 3, A = 24.",
+          "practice": "Find v when v = u + at, u=4, a=3, t=5."
+        },
+        {
+          "title": "Expanding brackets",
+          "objective": "Use the distributive law.",
+          "summary": "Multiply every term inside the bracket.",
+          "example": "3(x + 4) = 3x + 12.",
+          "practice": "Expand 5(2y - 3)."
+        },
+        {
+          "title": "Factorising",
+          "objective": "Take out the highest common factor.",
+          "summary": "Factorising reverses expansion.",
+          "example": "6x + 12 = 6(x + 2).",
+          "practice": "Factorise 15a - 20."
+        },
+        {
+          "title": "Solving equations",
+          "objective": "Use inverse operations and keep both sides balanced.",
+          "summary": "Whatever is done to one side must be done to the other.",
+          "example": "3x + 5 = 20 → 3x = 15 → x = 5.",
+          "practice": "Solve 4y - 7 = 21."
+        },
+        {
+          "title": "Inequalities",
+          "objective": "Represent and solve simple inequalities.",
+          "summary": "The solution is a range of values.",
+          "example": "2x + 3 < 11 → x < 4.",
+          "practice": "Solve 5n - 2 ≥ 18."
+        }
+      ]
+    },
+    {
+      "id": "y8-place",
+      "name": "Place Value & Rounding",
+      "lessons": [
+        {
+          "title": "Multiplying and dividing by 0.1 and 0.01",
+          "objective": "Understand decimal scaling.",
+          "summary": "Dividing by 0.1 is the same as multiplying by 10.",
+          "example": "4.7 ÷ 0.1 = 47.",
+          "practice": "Calculate 0.36 ÷ 0.01."
+        },
+        {
+          "title": "Rounding",
+          "objective": "Round to decimal places and significant figures.",
+          "summary": "Inspect the next digit: 5 or more rounds up.",
+          "example": "7.486 to 2 d.p. is 7.49.",
+          "practice": "Round 0.006784 to 2 significant figures."
+        },
+        {
+          "title": "Estimation",
+          "objective": "Estimate calculations using sensible rounding.",
+          "summary": "Round inputs first, then calculate.",
+          "example": "19.8 × 3.1 ≈ 20 × 3 = 60.",
+          "practice": "Estimate 48.9 ÷ 9.8."
+        }
+      ]
+    },
+    {
+      "id": "y8-decimals",
+      "name": "Decimals",
+      "lessons": [
+        {
+          "title": "Ordering decimals",
+          "objective": "Compare place values from left to right.",
+          "summary": "Add trailing zeros when useful.",
+          "example": "0.72 > 0.705 because 0.720 > 0.705.",
+          "practice": "Order 1.2, 1.09, 1.205 and 1.19."
+        },
+        {
+          "title": "Multiplying decimals",
+          "objective": "Multiply as whole numbers, then place the decimal point.",
+          "summary": "Count total decimal places in both factors.",
+          "example": "2.4 × 0.3 = 0.72.",
+          "practice": "Calculate 3.25 × 0.4."
+        },
+        {
+          "title": "Dividing decimals",
+          "objective": "Scale both numbers to make the divisor whole.",
+          "summary": "Multiplying dividend and divisor by the same power of 10 preserves the quotient.",
+          "example": "4.8 ÷ 0.6 = 48 ÷ 6 = 8.",
+          "practice": "Calculate 7.35 ÷ 0.5."
+        },
+        {
+          "title": "Efficient calculations",
+          "objective": "Use place value and known facts.",
+          "summary": "Rearrange calculations when it makes them simpler.",
+          "example": "0.25 × 48 = 48 ÷ 4 = 12.",
+          "practice": "Calculate 2.5 × 36 efficiently."
+        }
+      ]
+    },
+    {
+      "id": "y8-angles",
+      "name": "Angles & Constructions",
+      "lessons": [
+        {
+          "title": "Parallel lines",
+          "objective": "Use corresponding, alternate and co-interior angle facts.",
+          "summary": "Corresponding and alternate angles are equal; co-interior sum to 180°.",
+          "example": "If an alternate angle is 68°, the matching angle is 68°.",
+          "practice": "Find a co-interior angle paired with 112°."
+        },
+        {
+          "title": "Exterior angles",
+          "objective": "Use triangle exterior-angle relationships.",
+          "summary": "An exterior angle equals the sum of the two opposite interior angles.",
+          "example": "If opposite angles are 45° and 60°, exterior angle = 105°.",
+          "practice": "Find the exterior angle when opposite interior angles are 38° and 77°."
+        },
+        {
+          "title": "Constructions",
+          "objective": "Use ruler and compasses accurately.",
+          "summary": "Construct perpendicular bisectors and angle bisectors without measuring.",
+          "example": "A perpendicular bisector is equidistant from both endpoints.",
+          "practice": "Describe how to construct a 60° angle."
+        }
+      ]
+    },
+    {
+      "id": "y8-data",
+      "name": "Collecting Data",
+      "lessons": [
+        {
+          "title": "Data collection",
+          "objective": "Choose suitable primary and secondary data methods.",
+          "summary": "Match the method to the question and avoid bias.",
+          "example": "A survey can collect opinions; a sensor can collect continuous measurements.",
+          "practice": "Design a question to measure travel time to school."
+        },
+        {
+          "title": "Sampling",
+          "objective": "Understand population, sample and representative sampling.",
+          "summary": "A representative sample reflects the population.",
+          "example": "A stratified sample uses proportional groups.",
+          "practice": "Explain why surveying only sports-club members may be biased."
+        }
+      ]
+    },
+    {
+      "id": "y8-fractions",
+      "name": "Fractions",
+      "lessons": [
+        {
+          "title": "Recurring decimals",
+          "objective": "Recognise terminating and recurring decimals.",
+          "summary": "A fraction terminates only when its simplified denominator has prime factors 2 and/or 5.",
+          "example": "1/3 = 0.333…; 3/8 = 0.375.",
+          "practice": "Decide whether 7/12 terminates or recurs."
+        },
+        {
+          "title": "Ordering fractions",
+          "objective": "Use common denominators or decimal equivalents.",
+          "summary": "Compare fractions using a shared representation.",
+          "example": "3/4 = 0.75 and 5/8 = 0.625, so 3/4 > 5/8.",
+          "practice": "Order 2/3, 3/5 and 7/10."
+        },
+        {
+          "title": "Mixed numbers",
+          "objective": "Convert between mixed and improper fractions.",
+          "summary": "Multiply the whole number by the denominator, then add the numerator.",
+          "example": "2 3/5 = 13/5.",
+          "practice": "Convert 17/4 to a mixed number."
+        },
+        {
+          "title": "Fraction operations",
+          "objective": "Add, subtract, multiply and divide fractions.",
+          "summary": "For division, multiply by the reciprocal.",
+          "example": "2/3 ÷ 4/5 = 2/3 × 5/4 = 5/6.",
+          "practice": "Calculate 3/4 + 5/6."
+        }
+      ]
+    },
+    {
+      "id": "y8-shapes",
+      "name": "Shapes & Symmetry",
+      "lessons": [
+        {
+          "title": "Quadrilaterals and polygons",
+          "objective": "Classify polygons using properties.",
+          "summary": "Use sides, angles, parallel lines and symmetry.",
+          "example": "A parallelogram has opposite sides parallel and equal.",
+          "practice": "Compare a rhombus and a kite."
+        },
+        {
+          "title": "Circumference",
+          "objective": "Use C = πd or C = 2πr.",
+          "summary": "Diameter is twice the radius.",
+          "example": "For r=5 cm, C=10π≈31.4 cm.",
+          "practice": "Find the circumference of a circle with diameter 12 cm."
+        },
+        {
+          "title": "3D shapes",
+          "objective": "Identify faces, edges, vertices and nets.",
+          "summary": "Visualise solids from different views.",
+          "example": "A cube has 6 faces, 12 edges and 8 vertices.",
+          "practice": "Sketch a valid net for a triangular prism."
+        }
+      ]
+    },
+    {
+      "id": "y8-functions",
+      "name": "Sequences & Functions",
+      "lessons": [
+        {
+          "title": "Generating sequences",
+          "objective": "Continue and generate sequences from rules.",
+          "summary": "Apply the same rule consistently.",
+          "example": "Start 4, add 3: 4, 7, 10, 13…",
+          "practice": "Generate five terms of 2n + 1."
+        },
+        {
+          "title": "Rules",
+          "objective": "Describe term-to-term and position-to-term rules.",
+          "summary": "Position-to-term rules give any term directly.",
+          "example": "3, 7, 11, 15 has nth term 4n - 1.",
+          "practice": "Find the nth term of 5, 8, 11, 14."
+        },
+        {
+          "title": "nth term",
+          "objective": "Use the nth term to find terms and solve inverse questions.",
+          "summary": "Substitute the term number into the expression.",
+          "example": "For 3n+2, term 10 is 32.",
+          "practice": "Is 47 in the sequence 5n+2?"
+        },
+        {
+          "title": "Functions",
+          "objective": "Use function machines and mappings.",
+          "summary": "A function maps each input to exactly one output.",
+          "example": "x → 2x+3 sends 4 to 11.",
+          "practice": "Find the input that gives 19 under x → 4x-1."
+        }
+      ]
+    },
+    {
+      "id": "y8-percent",
+      "name": "Percentages",
+      "lessons": [
+        {
+          "title": "Percentage increase/decrease",
+          "objective": "Calculate percentage change.",
+          "summary": "Find the change, divide by original, multiply by 100%.",
+          "example": "From 80 to 92: increase 12; 12/80=15%.",
+          "practice": "Find the percentage decrease from 250 to 210."
+        },
+        {
+          "title": "Using a multiplier",
+          "objective": "Use decimal multipliers efficiently.",
+          "summary": "Increase by p%: multiply by 1+p/100; decrease by p%: multiply by 1-p/100.",
+          "example": "Increase £60 by 20%: 60×1.2=72.",
+          "practice": "Decrease 480 by 15%."
+        }
+      ]
+    },
+    {
+      "id": "y8-graphs",
+      "name": "Graphs",
+      "lessons": [
+        {
+          "title": "Functions",
+          "objective": "Represent functions using tables and graphs.",
+          "summary": "Each ordered pair (x,y) becomes a plotted point.",
+          "example": "For y=2x+1, x=0 gives y=1.",
+          "practice": "Complete a table for y=3x-2."
+        },
+        {
+          "title": "Plotting",
+          "objective": "Plot coordinates accurately in four quadrants.",
+          "summary": "Move along x first, then y.",
+          "example": "(-3,2) lies left 3 and up 2.",
+          "practice": "Plot (4,-2), (-1,-4), (0,3)."
+        },
+        {
+          "title": "Gradient",
+          "objective": "Interpret gradient as rise/run.",
+          "summary": "Gradient measures steepness and direction.",
+          "example": "From (1,2) to (5,10): gradient=(10-2)/(5-1)=2.",
+          "practice": "Find the gradient through (-2,1) and (4,13)."
+        },
+        {
+          "title": "Interpreting graphs",
+          "objective": "Read meaning from real-life graphs.",
+          "summary": "Check axes, units and scale before interpreting.",
+          "example": "A horizontal distance-time segment means stationary.",
+          "practice": "Explain a steep section on a temperature-time graph."
+        }
+      ]
+    },
+    {
+      "id": "y8-ratio",
+      "name": "Ratio & Proportion",
+      "lessons": [
+        {
+          "title": "Simplifying ratios",
+          "objective": "Divide all parts by their highest common factor.",
+          "summary": "Ratios must be simplified consistently.",
+          "example": "18:24 ÷6 = 3:4.",
+          "practice": "Simplify 45:60:75."
+        },
+        {
+          "title": "Sharing in a ratio",
+          "objective": "Find total parts, then value of one part.",
+          "summary": "Multiply one-part value by each ratio number.",
+          "example": "Share 84 in 3:4: one part=12, shares 36 and 48.",
+          "practice": "Share 150 in the ratio 2:3."
+        },
+        {
+          "title": "Direct proportion",
+          "objective": "Use equivalent ratios and unit rates.",
+          "summary": "If one quantity doubles, the directly proportional quantity doubles.",
+          "example": "5 books cost £20, so 1 costs £4 and 8 cost £32.",
+          "practice": "6 kg costs £15; find the cost of 14 kg."
+        }
+      ]
+    },
+    {
+      "id": "y8-probability",
+      "name": "Probability",
+      "lessons": [
+        {
+          "title": "Calculating probabilities",
+          "objective": "Use favourable outcomes over total outcomes.",
+          "summary": "Probability lies between 0 and 1.",
+          "example": "3 red out of 8 total gives P(red)=3/8.",
+          "practice": "Find P(not blue) if 5 of 12 counters are blue."
+        },
+        {
+          "title": "Experimental and theoretical probability",
+          "objective": "Compare observed frequency with expected probability.",
+          "summary": "Experimental probability approaches theoretical probability over many trials.",
+          "example": "42 heads in 80 tosses gives experimental P(head)=42/80.",
+          "practice": "Predict successes in 300 trials when probability is 0.4."
+        }
+      ]
+    },
+    {
+      "id": "y8-transform",
+      "name": "Position & Transformation",
+      "lessons": [
+        {
+          "title": "Bearings",
+          "objective": "Measure clockwise from north using three digits.",
+          "summary": "Bearings are written such as 045° or 270°.",
+          "example": "East has bearing 090°.",
+          "practice": "State the bearing of southwest."
+        },
+        {
+          "title": "Midpoints",
+          "objective": "Average corresponding coordinates.",
+          "summary": "Midpoint = ((x₁+x₂)/2,(y₁+y₂)/2).",
+          "example": "Midpoint of (2,5) and (8,1) is (5,3).",
+          "practice": "Find midpoint of (-4,7) and (6,-3)."
+        },
+        {
+          "title": "Translations",
+          "objective": "Add a vector to every vertex.",
+          "summary": "A translation preserves shape and orientation.",
+          "example": "(3,-1) translated by (2,4) becomes (5,3).",
+          "practice": "Translate (-2,5) by vector (4,-7)."
+        },
+        {
+          "title": "Reflections",
+          "objective": "Reflect using equal perpendicular distance from mirror line.",
+          "summary": "Reflections reverse orientation.",
+          "example": "Reflect (4,2) in the y-axis to get (-4,2).",
+          "practice": "Reflect (-3,5) in the x-axis."
+        },
+        {
+          "title": "Rotations",
+          "objective": "Specify centre, angle and direction.",
+          "summary": "Rotations preserve distance from the centre.",
+          "example": "A 90° anticlockwise rotation about origin sends (x,y) to (-y,x).",
+          "practice": "Rotate (3,1) 90° anticlockwise about origin."
+        },
+        {
+          "title": "Enlargements",
+          "objective": "Use centre and scale factor.",
+          "summary": "Lengths multiply by scale factor; angles stay equal.",
+          "example": "Scale factor 2 doubles every distance from the centre.",
+          "practice": "Enlarge a triangle by scale factor 1.5."
+        }
+      ]
+    },
+    {
+      "id": "y8-measure",
+      "name": "Distance, Area & Volume",
+      "lessons": [
+        {
+          "title": "Conversions",
+          "objective": "Convert metric units accurately.",
+          "summary": "Use powers of 10 and square/cube conversion factors.",
+          "example": "2.5 km = 2500 m; 3 m² = 30000 cm².",
+          "practice": "Convert 0.75 m³ to litres."
+        },
+        {
+          "title": "Parallelogram and trapezium area",
+          "objective": "Apply correct area formulae.",
+          "summary": "Parallelogram A=bh; trapezium A=½(a+b)h.",
+          "example": "a=7,b=11,h=4 gives trapezium area 36.",
+          "practice": "Find area of a parallelogram with base 13 and height 8."
+        },
+        {
+          "title": "Triangles",
+          "objective": "Use A=½bh.",
+          "summary": "The perpendicular height is used.",
+          "example": "Base 12, height 9 gives area 54.",
+          "practice": "Find a triangle’s height if area=40 and base=10."
+        },
+        {
+          "title": "Prisms and pyramids",
+          "objective": "Use volume = cross-sectional area × length for prisms.",
+          "summary": "Keep units consistent.",
+          "example": "A prism with cross-section 15 cm² and length 8 cm has volume 120 cm³.",
+          "practice": "Find volume of a triangular prism with triangle area 24 cm² and length 10 cm."
+        }
+      ]
+    },
+    {
+      "id": "y8-statistics",
+      "name": "Interpreting & Discussing Results",
+      "lessons": [
+        {
+          "title": "Frequency diagrams",
+          "objective": "Read and construct frequency diagrams.",
+          "summary": "Frequency is shown by height or area depending on diagram type.",
+          "example": "A bar of height 12 represents frequency 12.",
+          "practice": "Compare two frequency diagrams fairly."
+        },
+        {
+          "title": "Time series",
+          "objective": "Identify trends and seasonal patterns.",
+          "summary": "Time order is essential.",
+          "example": "Repeated annual peaks suggest seasonality.",
+          "practice": "Describe the trend in a monthly-sales graph."
+        },
+        {
+          "title": "Stem-and-leaf",
+          "objective": "Organise data while retaining original values.",
+          "summary": "Include a key and order leaves.",
+          "example": "3 | 4 7 means 34 and 37.",
+          "practice": "Construct a stem-and-leaf diagram for 21, 24, 28, 31, 35."
+        },
+        {
+          "title": "Pie charts",
+          "objective": "Convert frequencies to angles.",
+          "summary": "Sector angle = frequency/total × 360°.",
+          "example": "15 out of 60 gives 90°.",
+          "practice": "Find the angle for frequency 18 out of 72."
+        },
+        {
+          "title": "Statistics",
+          "objective": "Compare centre and spread.",
+          "summary": "Use mean/median/mode with range or other spread.",
+          "example": "Same mean does not imply same consistency.",
+          "practice": "Compare two groups using median and range."
+        }
+      ]
+    }
+  ]
+}
