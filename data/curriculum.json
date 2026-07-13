@@ -1,0 +1,313 @@
+{
+  "meta": {
+    "title": "Super Maths Platform",
+    "version": "7.0.0",
+    "framework": "Cambridge Lower Secondary Mathematics 0862 compatible structure",
+    "note": "Editable curriculum map; validate school sequence against licensed framework."
+  },
+  "years": [
+    {
+      "id": "year7",
+      "name": "Year 7 / Stage 7",
+      "units": [
+        {
+          "id": "y7-number",
+          "name": "Number & Place Value",
+          "topics": [
+            "Integers",
+            "Factors, multiples and primes",
+            "Powers and roots",
+            "Place value",
+            "Rounding and estimation"
+          ]
+        },
+        {
+          "id": "y7-algebra",
+          "name": "Algebra Foundations",
+          "topics": [
+            "Expressions",
+            "Substitution",
+            "Simple equations",
+            "Sequences",
+            "Coordinates"
+          ]
+        },
+        {
+          "id": "y7-fdp",
+          "name": "Fractions, Decimals & Percentages",
+          "topics": [
+            "Equivalent fractions",
+            "Fraction operations",
+            "Decimals",
+            "Percentages",
+            "Conversions"
+          ]
+        },
+        {
+          "id": "y7-geometry",
+          "name": "Geometry & Measure",
+          "topics": [
+            "Angles",
+            "Triangles and quadrilaterals",
+            "Symmetry",
+            "Perimeter and area",
+            "Units and measurement"
+          ]
+        },
+        {
+          "id": "y7-data",
+          "name": "Data & Probability",
+          "topics": [
+            "Collecting data",
+            "Tables and charts",
+            "Averages",
+            "Probability language",
+            "Simple experiments"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year8",
+      "name": "Year 8 / Stage 8",
+      "units": [
+        {
+          "id": "y8-integers",
+          "name": "Integers",
+          "topics": [
+            "Factors, multiples and primes",
+            "Multiplying and dividing integers",
+            "Square roots and cube roots",
+            "Indices"
+          ]
+        },
+        {
+          "id": "y8-algebra",
+          "name": "Expressions, Formulae & Equations",
+          "topics": [
+            "Constructing expressions",
+            "Formulae",
+            "Expanding brackets",
+            "Factorising",
+            "Solving equations",
+            "Inequalities"
+          ]
+        },
+        {
+          "id": "y8-place",
+          "name": "Place Value & Rounding",
+          "topics": [
+            "Multiplying and dividing by 0.1 and 0.01",
+            "Rounding",
+            "Estimation"
+          ]
+        },
+        {
+          "id": "y8-decimals",
+          "name": "Decimals",
+          "topics": [
+            "Ordering decimals",
+            "Multiplying decimals",
+            "Dividing decimals",
+            "Efficient calculations"
+          ]
+        },
+        {
+          "id": "y8-angles",
+          "name": "Angles & Constructions",
+          "topics": [
+            "Parallel lines",
+            "Exterior angles",
+            "Constructions"
+          ]
+        },
+        {
+          "id": "y8-data",
+          "name": "Collecting Data",
+          "topics": [
+            "Data collection",
+            "Sampling"
+          ]
+        },
+        {
+          "id": "y8-fractions",
+          "name": "Fractions",
+          "topics": [
+            "Recurring decimals",
+            "Ordering fractions",
+            "Mixed numbers",
+            "Fraction operations"
+          ]
+        },
+        {
+          "id": "y8-shapes",
+          "name": "Shapes & Symmetry",
+          "topics": [
+            "Quadrilaterals and polygons",
+            "Circumference",
+            "3D shapes"
+          ]
+        },
+        {
+          "id": "y8-functions",
+          "name": "Sequences & Functions",
+          "topics": [
+            "Generating sequences",
+            "Rules",
+            "nth term",
+            "Functions"
+          ]
+        },
+        {
+          "id": "y8-percent",
+          "name": "Percentages",
+          "topics": [
+            "Percentage increase/decrease",
+            "Using a multiplier"
+          ]
+        },
+        {
+          "id": "y8-graphs",
+          "name": "Graphs",
+          "topics": [
+            "Functions",
+            "Plotting",
+            "Gradient",
+            "Interpreting graphs"
+          ]
+        },
+        {
+          "id": "y8-ratio",
+          "name": "Ratio & Proportion",
+          "topics": [
+            "Simplifying ratios",
+            "Sharing in a ratio",
+            "Direct proportion"
+          ]
+        },
+        {
+          "id": "y8-probability",
+          "name": "Probability",
+          "topics": [
+            "Calculating probabilities",
+            "Experimental and theoretical probability"
+          ]
+        },
+        {
+          "id": "y8-transform",
+          "name": "Position & Transformation",
+          "topics": [
+            "Bearings",
+            "Midpoints",
+            "Translations",
+            "Reflections",
+            "Rotations",
+            "Enlargements"
+          ]
+        },
+        {
+          "id": "y8-measure",
+          "name": "Distance, Area & Volume",
+          "topics": [
+            "Conversions",
+            "Parallelogram and trapezium area",
+            "Triangles",
+            "Prisms and pyramids"
+          ]
+        },
+        {
+          "id": "y8-statistics",
+          "name": "Interpreting & Discussing Results",
+          "topics": [
+            "Frequency diagrams",
+            "Time series",
+            "Stem-and-leaf",
+            "Pie charts",
+            "Statistics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "year9",
+      "name": "Year 9 / Stage 9",
+      "units": [
+        {
+          "id": "y9-number",
+          "name": "Number Mastery",
+          "topics": [
+            "Standard form",
+            "Surds and roots",
+            "Indices",
+            "Bounds",
+            "Ratio and rates"
+          ]
+        },
+        {
+          "id": "y9-algebra",
+          "name": "Advanced Algebra",
+          "topics": [
+            "Linear equations",
+            "Simultaneous equations",
+            "Factorising",
+            "Changing the subject",
+            "Sequences and functions"
+          ]
+        },
+        {
+          "id": "y9-graphs",
+          "name": "Graphs & Functions",
+          "topics": [
+            "Linear graphs",
+            "Quadratic graphs",
+            "Distance-time graphs",
+            "Gradient and intercept"
+          ]
+        },
+        {
+          "id": "y9-geometry",
+          "name": "Geometry",
+          "topics": [
+            "Angle reasoning",
+            "Congruence and similarity",
+            "Pythagoras",
+            "Transformations",
+            "Loci"
+          ]
+        },
+        {
+          "id": "y9-measure",
+          "name": "Mensuration",
+          "topics": [
+            "Area and volume",
+            "Circles",
+            "Prisms",
+            "Compound measures",
+            "Scale drawings"
+          ]
+        },
+        {
+          "id": "y9-statistics",
+          "name": "Statistics",
+          "topics": [
+            "Grouped data",
+            "Averages and spread",
+            "Scatter graphs",
+            "Sampling",
+            "Misleading graphs"
+          ]
+        },
+        {
+          "id": "y9-probability",
+          "name": "Probability",
+          "topics": [
+            "Combined events",
+            "Tree diagrams",
+            "Relative frequency",
+            "Mutually exclusive events"
+          ]
+        }
+      ]
+    }
+  ]
+}
